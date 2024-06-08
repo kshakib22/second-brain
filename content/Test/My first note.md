@@ -1,4 +1,14 @@
-# Dw
+---
+title: Example Title
+draft: false
+tags:
+  - example-tag
+---
+
+# First Note on Obsidian
+
+ 
+The rest of your content lives here. You can use **Markdown** here :)
 ## h2
 ### h3
 [[tag1]]
