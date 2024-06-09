@@ -1,6 +1,7 @@
 import { GlobalConfiguration } from "../cfg"
 import { ValidLocale } from "../i18n"
 import { QuartzPluginData } from "../plugins/vfile"
+import moment from "moment"
 
 interface Props {
   date: Date
@@ -19,12 +20,15 @@ export function getDate(cfg: GlobalConfiguration, data: QuartzPluginData): Date 
 }
 
 export function formatDate(d: Date, locale: ValidLocale = "en-US"): string {
-  return d.toLocaleDateString(locale, {
-    year: "numeric",
-    month: "short",
-    day: "2-digit",
-  })
+  return moment(d).format("dddd, MMMM Do YYYY | h:mm a")
 }
+// export function formatDate(d: Date, locale: ValidLocale = "en-US"): string {
+//   return d.toLocaleDateString(locale, {
+//     year: "numeric",
+//     month: "short",
+//     day: "2-digit",
+//   })
+// }
 
 export function Date({ date, locale }: Props) {
   return <>{formatDate(date, locale)}</>
