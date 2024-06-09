@@ -1,9 +1,8 @@
 ---
-title: Welcome to Quartz
+title: Second Brain
 draft: false
-date: jezus
-formattedDate: "{{ moment(date).format('dddd, MMMM Do YYYY') }}"
+date:
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+
+This is my personal knowledge base, built on the principles of networked thinking. Dive into the interconnected web of ideas.
