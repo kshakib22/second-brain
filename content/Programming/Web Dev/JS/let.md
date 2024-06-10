@@ -10,4 +10,7 @@ Just constructing the variable gives it `undefined` value
 let pizza = "Pizza"
 pizza = "Much Bigger Pizza" // Allowed
 let pizza = "Burger" // Not allowed, Syntax Error
+
+let emptyLet; 
+console.log(emptyLet); // return 'undefined'
 ```
