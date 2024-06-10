@@ -58,7 +58,7 @@ Now lets try a latex snippet for Euler's GCD algorithm using [[LaTeX]].
 
 ## GCD Algorithm
 
-The following algorithm computes the greatest common divisor (GCD) of two non-negative integers $a$ and  $b$
+The following algorithm computes the greatest common divisor (GCD) of two non-negative integers $a$ and  $b$.  The formula is **wrong** btw.
 
 
 $$
