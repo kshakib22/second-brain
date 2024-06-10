@@ -6,3 +6,5 @@ Goals for today
 - [ ] Some JavaScript/Web Dev
 - [ ] Some DSA
 - [ ] Obsidian stuff during breaks
+	- [ ] Fix date stuff
+	- [ ] Look into font stuff
