@@ -10,4 +10,5 @@ This is my personal knowledge base, built on the principles of networked thinkin
 2. Notes on web dev/ DSA 
 3. [README](README.md)
 4. Edit links to Github and Discord
+5.  Date stuff (modified/git/frontmatter)
 
