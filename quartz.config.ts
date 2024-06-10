@@ -15,7 +15,7 @@ const config: QuartzConfig = {
     locale: "en-US",
     baseUrl: "kshakib22.github.io/second-brain",
     ignorePatterns: ["private", "templates", ".obsidian"],
-    defaultDateType: "published",
+    defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
