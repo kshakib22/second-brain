@@ -11,11 +11,9 @@ const config: QuartzConfig = {
     pageTitle: "Home",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "plausible",
-    },
+    analytics: { provider: "tinylytics", siteId: "RNJYK9tLses83yQefMTy" },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "kshakib22.github.io/second-brain",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {

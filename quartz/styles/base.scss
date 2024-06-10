@@ -17,6 +17,7 @@ section {
   background-color: var(--light);
   font-family: var(--bodyFont);
   color: var(--darkgray);
+  font-size: 1.1rem;
 }
 
 .text-highlight {
@@ -296,7 +297,7 @@ h6 {
 
 // typography improvements
 h1 {
-  font-size: 1.75rem;
+  font-size: 3rem;
   margin-top: 2.25rem;
   margin-bottom: 1rem;
 }
