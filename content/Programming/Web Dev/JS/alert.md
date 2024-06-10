@@ -1,0 +1,1 @@
+Multiple `alert` brings up only a single pop up, but we have to click OK the number of times `alert` was used.

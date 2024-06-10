@@ -8,3 +8,4 @@ Goals for today
 - [ ] Obsidian stuff during breaks
 	- [ ] Fix date stuff
 	- [ ] Look into font stuff
+- [ ] [[Giscus]] as a [[Long Term Goals]]
