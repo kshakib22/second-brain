@@ -1,10 +1,11 @@
 
-Strings in JS are very similar to [Python](Python.md) .  In both cases they are **immutable** and even though it supports `[]` element access, there is no way to change existing string.
+Strings in JS are slightly similar to [Python](Python.md) .  In both cases they are **immutable** and even though it supports `[]` element access, there is no way to change existing string.
 
 Key similarities:
 - You can concatenate using '+' 
 -  You can concatenate string in quote with a variable containing string using '+'
 - 'text' and "text" essentially same and interchangeable
+- **Backticks** also work to declare string. Or rather define a *[[template literal]]*  for string formatting
 
 ## Slicing
 
@@ -19,7 +20,7 @@ x.slice(0:4) // returns "myNa"
 
 You can use square brackets `[ ]` to access elements, but only in one direction from start to end. Basically used to get individual characters. You **cannot** slice using `[ ]` methods.
 
-## Cases
+# Other Methods
 
 The method `.toUpperCase()` turns the string into upper case. Example use case - ALERTS, first letter capitalization, etc.
 
