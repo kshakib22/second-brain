@@ -3,7 +3,7 @@
 
 For chrome, use developer tools `->` sources. Then within submenu select Snippets. It will show `index.js `  on the left where we can add js scripts to see how it affects browser behavior. Then press `⌘+Enter` to run.
 
-## Basics
+## Quick Overview
 
 The notes don't go into too much details considering some existing programming knowledge. Maybe at different points it will be compared to existing knowledge (mainly [[Python]]).
 
@@ -20,6 +20,7 @@ Here is the basic data types. Things get intense when we see all the different o
 
 Both `i++` as well as `i+=` is allowed in Javascript. 
 `return` works the same as Python.
+Use`//` for inline comment and `/* shizle goes here */` for comment snippet
 
 ## Compilation
 
