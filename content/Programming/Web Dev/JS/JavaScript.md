@@ -17,3 +17,5 @@ Here is the basic data types. Things get intense when we see all the different o
 [[alert]] (message) -  brings up a pop up with the message
 [[prompt]] (message) - brings up a pop up with message that can take an input 
 [[var]] - is a keyword used to [[declare]] *variables* 
+
+Both `i++` as well as `i+=` is allowed in Javascript. 
