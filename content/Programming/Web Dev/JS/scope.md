@@ -1,4 +1,3 @@
-# Scope
 
 JavaScript has three types of scopes: **global scope**, **function scope**, and **block scope**. Connects to [[var]], [[let]], and [[const]]. Read on [[hoisting]] to clear more confusions that arise due to declaration.
 

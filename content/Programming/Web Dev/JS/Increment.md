@@ -1,4 +1,3 @@
-# Increment
 
 Sometimes in niche situations we might get confused between `i++` and `++i`. This example is a simple one to understand the difference between the two.
 - **`i++`**: Post-increment operation

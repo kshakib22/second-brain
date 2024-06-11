@@ -1,0 +1,1 @@
+Compiled languages typically converts the *whole code*  into machine code (understandable by the computer) before execution. This pre-conversion can lead to faster execution but requires a separate compilation step.

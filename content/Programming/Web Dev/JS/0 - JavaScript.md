@@ -19,3 +19,7 @@ Here is the basic data types. Things get intense when we see all the different o
 [[var]] - is a keyword used to [[declare]] *variables* 
 
 Both `i++` as well as `i+=` is allowed in Javascript. 
+
+## Compilation
+
+JS is neither [[interpreted]] nor [[compiled]] but uses a mix of both known as just-in-time ([[Just-In-Time]]) compiled language.

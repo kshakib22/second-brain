@@ -1,0 +1,1 @@
+Traditionally, interpreted languages are executed **line by line** by an interpreter at runtime. The interpreter translates the code into machine code on the fly. This can be slower than compiled languages.
