@@ -1,5 +1,6 @@
 The basic notation of control flow in JS involves `()` for any logical condition/expression and `{}` to indicate what to do for that logic. Examples are given below.
 1. **if, else if, else**
+
    ```js
 if (condition) {
   // code to execute if condition is true
@@ -11,6 +12,7 @@ if (condition) {
 ```
 
 2.  **switch**
+
    ```js
 switch (expression) {
   case value1:
