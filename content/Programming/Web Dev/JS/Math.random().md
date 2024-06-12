@@ -11,5 +11,6 @@ The way to do this is to multiply the `Math.random()` with $x+ 1$ to scale it.
  
 
 ```js
+// get a random number between 0 and 5
 var num = Math.random()* (x+1)
 ```

@@ -1,5 +1,5 @@
 
-Strings in JS are slightly similar to [Python](Python.md) .  In both cases they are **immutable** and even though it supports `[]` element access, there is no way to change existing string.
+Strings in JS are slightly similar to [Python](Python.md) .  In both cases they are **[[immutable]]** and even though it supports `[]` element access, there is no way to change existing string.
 
 Key similarities:
 - You can concatenate using '+' 
@@ -18,7 +18,7 @@ x.slice(-1) // returns "e"
 x.slice(0:4) // returns "myNa"
 ```
 
-You can use square brackets `[ ]` to access elements, but only in one direction from start to end. Basically used to get individual characters. You **cannot** slice using `[ ]` methods.
+Check [[Square Brackets]] to see how they behave in different iterables.
 
 # Other Methods
 
