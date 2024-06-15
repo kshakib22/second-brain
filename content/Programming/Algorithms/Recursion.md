@@ -1,6 +1,6 @@
 Recursive functions are a powerful programming concept that involve a function calling itself. Usually used to break down bigger problems into smaller problems.  The smaller problems are **identical** to each other and combine to form the final answer.
 
-This  basically sounds like an infinite loop (function calling itself, when does it stop?). It *is* an infinite loop that’s why the **base case** exists to end it. Base case is a simple condition that can be solved directly without further recursion. Base case `->`  no recursion needed `=`  Infinite loop ended.
+This  basically sounds like an infinite loop (function calling itself, when does it stop?). It *is* an infinite loop that’s why the **base case** exists to end it. Base case is a simple condition that can be solved directly without further recursion. Base case  $\rightarrow$  no recursion needed $=$ Infinite loop ended.
 
 ## Mathematical Recursion
 
@@ -14,8 +14,8 @@ F_n = n+F_{n-1} \mid n \in \mathbb{Z} \text{ and } n > 0
 $$
 Meaning $n$ is an integer AND is greater than 0 (also known as counting numbers/natural numbers).
 
-To ensure $n$ is integer `->` start with integer, decrement by 1 (stays integer).
-To ensure greater than 0 `->` put a control (if statement) to return when 0. Actually we can just return when its 1 because 0 doesn't change anything in our case. If you *really* want to be specific, this is what's up:
+To ensure $n$ is integer $\rightarrow$ start with integer, decrement by 1 (stays integer).
+To ensure greater than 0 $\rightarrow$ put a control (if statement) to return when 0. Actually we can just return when its 1 because 0 doesn't change anything in our case. If you *really* want to be specific, this is what's up:
 $$
 F_n = n+F_{n-1} \mid n \in \mathbb{Z} \text{ and } n \geq 1
 $$
