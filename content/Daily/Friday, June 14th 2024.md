@@ -14,8 +14,10 @@ Ammu fell very sick so will probably spend the daytime at the hospital.
 
 ### Goals
 
-- [ ] Some web dev
+- [x] Some web dev
 - [ ] Resume finalize
 - [ ] Start applying please
 
 ## Ending
+
+Spend my day at the hospital but that's fine. Gotta start the grind fosho tomorrow.
