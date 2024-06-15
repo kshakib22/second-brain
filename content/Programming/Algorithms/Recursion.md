@@ -20,10 +20,11 @@ $$
 F_n = n+F_{n-1} \mid n \in \mathbb{Z} \text{ and } n \geq 1
 $$
 Now convert all these into analogous parts of code where $F_n$ is a function, $n$ is our input.
-```python
+```run-python
 def Fn(n):
   if n == 1:
       return 1
   result = n + Fn(n-1)
   return result
+print(Fn(10))
 ```
