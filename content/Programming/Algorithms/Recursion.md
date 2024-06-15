@@ -14,7 +14,7 @@ F_n = n+F_{n-1} \mid n \in \mathbb{Z} \text{ and } n > 0
 $$
 Meaning $n$ is an integer AND is greater than 0 (also known as counting numbers/natural numbers).
 
-To ensure $n$ is integer `->` start with integer, decrement by 1 (stays integer)
+To ensure $n$ is integer `->` start with integer, decrement by 1 (stays integer).
 To ensure greater than 0 `->` put a control (if statement) to return when 0. Actually we can just return when its 1 because 0 doesn't change anything in our case. If you *really* want to be specific, this is what's up:
 $$
 F_n = n+F_{n-1} \mid n \in \mathbb{Z} \text{ and } n \geq 1
