@@ -18,3 +18,5 @@ General dissociation level is still pretty high everytime I wake up.  Might need
 - [ ] Some JS
 
 ## Ending
+
+It was particularly depressing 🫥🫥🫥
