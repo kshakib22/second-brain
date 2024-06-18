@@ -1,4 +1,18 @@
-Yesterday: 2024-06-17
-Tomorrow: 2024-06-19
-Modded: 2024-06-18 14:07
+---
+title: Tuesday, June 18th 2024, 2:24 pm
+draft: false
+tags:
+---
+Testing to see if title name and filename can be different.
+## Starting 
 
+
+
+### Mood
+
+
+### Goals
+
+- [ ] 
+
+## Ending
