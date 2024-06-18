@@ -1,6 +1,11 @@
 ---
-title: <%tp.file.title%>
-draft: false
-date: <%tp.file.last_modified_date("dddd, MMMM Do YYYY h:mm a")%>
+creation date: <% tp.file.creation_date() %>
+modification date: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm:ss") %>
 ---
-I have used `<% tp.file.title %>`  for my title and `<% tp.file.last_modified_date("dddd, MMMM Do YYYY h:mm a") %>` for my date variable in frontmatter. I want to see if the Title matches my actual title (Test Date and Templater) and if the date gets fixed to date modified. Will have to check on site.
+
+
+<< [[<% tp.date.now("YYYY-MM-DD", -1) %>]] | [[<% tp.date.now("YYYY-MM-DD", 1) %>]] >>
+
+# <% tp.file.title %>
+
+<% tp.web.daily_quote() %>
