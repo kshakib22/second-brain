@@ -1,4 +1,4 @@
-Recursive functions are a powerful programming concept that involve a function calling itself. Usually used to break down bigger problems into smaller problems.  The smaller problems are **identical** to each other and combine to form the final answer.
+[Recursion](Recursion.md) is a powerful programming concept that involve a function calling itself. Usually used to break down bigger problems into smaller problems.  The smaller problems are **identical** to each other and combine to form the final answer.
 
 This  basically sounds like an infinite loop (function calling itself, when does it stop?). It *is* an infinite loop that’s why the **base case** exists to end it. Base case is a simple condition that can be solved directly without further recursion. Base case  $\rightarrow$  no recursion needed $=$ Infinite loop ended.
 
