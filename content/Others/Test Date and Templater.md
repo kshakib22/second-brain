@@ -1,11 +1,4 @@
----
-creation date: <% tp.file.creation_date() %>
-modification date: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm:ss") %>
----
+Yesterday: 2024-06-17
+Tomorrow: 2024-06-19
+Modded: 2024-06-18 14:07
 
-
-<< [[<% tp.date.now("YYYY-MM-DD", -1) %>]] | [[<% tp.date.now("YYYY-MM-DD", 1) %>]] >>
-
-# <% tp.file.title %>
-
-<% tp.web.daily_quote() %>

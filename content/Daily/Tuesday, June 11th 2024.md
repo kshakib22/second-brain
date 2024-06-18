@@ -1,5 +1,5 @@
 ---
-title: <% tp.file.title %>
+title: Tuesday, June 11th 2024
 draft: false
 tags: 
 ---

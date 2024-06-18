@@ -1,5 +1,5 @@
 ---
-title: <% tp.file.title %>
+title: Long Term Goals
 draft: false
 tags: 
 date:
@@ -7,3 +7,4 @@ date:
 List for keeping track of Long Term Goals. Priority max is [[P3]].
 
 - [ ] Giscus integration to site
+- [ ] Fix date on quartz
