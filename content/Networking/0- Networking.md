@@ -1,6 +1,13 @@
-I decided to start things off randomly. This is a complete random on linkedin who shared a video. As the hardest part is starting, I thought why not just start from here and build up from there? 
+I decided to start things off randomly. This is a complete random person on linkedin who shared a video. As the hardest part is starting, I thought why not just start from here and build up from there? 
 
 This is the [link](https://www.loom.com/share/35b673d59fd2418baf4ac4924e27afb4?sid=56ace1cb-35f9-44ec-a8b5-370510e3d485) to the video on loom (fresh platform) and below is gpt generated notes on it with timestamps (which might be an estimate).
+
+### Starting
+
+Given my nature, networking/rejection/talking is extremely difficult for me. Before beginning any sort of networking recite this at least 6 times - 
+
+>No loss is too big. All I need is *one* good job. Online rejection and shame means nothing to me or anyone else in the world. My desperation exceeds my cringe by a million miles.
+
 
 ### Key Points on Networking on LinkedIn
 
@@ -24,7 +31,7 @@ This is the [link](https://www.loom.com/share/35b673d59fd2418baf4ac4924e27afb4?s
    - **Timestamp: 06:18**
    - **Description:** Reach out to a larger number of people (at least five to ten) to increase the likelihood of responses. Low-volume outreach may result in fewer responses and increased frustration.
 
-6. **Targeted Messaging**
+6. [[Targeted Messaging]]
    - **Timestamp: 08:12**
    - **Description:** Focus on reaching out to people in your target role rather than just recruiters or hiring managers. Employees in your desired role can provide valuable insights about the company and the role.
 
@@ -36,7 +43,7 @@ This is the [link](https://www.loom.com/share/35b673d59fd2418baf4ac4924e27afb4?s
    - **Timestamp: 09:56**
    - **Description:** Maintain a respectful and persistent mindset. If you don't get responses, increase your outreach volume rather than overthinking your approach.
 
-9. **Use of Intro Notes**
+9. **Use of** [[Intro Notes]]
    - **Timestamp: 11:14**
    - **Description:** When sending connection requests, include a brief intro note. This is like a friendly wave and can lead to further conversation once accepted.
 
