@@ -14,7 +14,7 @@ tags:
 
 ### Goals
 
-- [ ] Fix the resume
-- [ ] Change Date type so that it sorts well
+- [x] Fix the resume
+- [x] Change Date type so that it sorts well
 
 ## Ending
