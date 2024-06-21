@@ -71,4 +71,6 @@ Given my nature, networking/rejection/talking is extremely difficult for me. Bef
     - **Timestamp: 19:52**
     - **Description:** Use the job description as a basis for your conversation. Ask specific questions about the role and connect your skills and experiences to the job requirements. This can naturally lead to a referral request.
 
-By implementing these strategies, you can effectively use LinkedIn to network, gather information, and increase your chances of securing a job in your desired field.
+### Setup
+
+With the concepts clearer, we need to set things up
