@@ -1,5 +1,32 @@
-- **Inline:** JavaScript code written directly within HTML tags (e.g., `onclick` attribute or inside `<body onload ="">`
-- **Script:** JavaScript code placed within [[script]] tags inside the HTML document (`<head>` or `<body>`).
-- **External:** JavaScript code stored in a separate `.js` file and linked to the HTML document using a `<script>` tag with `src` attribute.
 
-HTMLis treated as a *document* with different levels of hierarchy/relationships. This is known as Document Object Model ([[DOM]]).
+- **Inline:** JavaScript code written directly within HTML tags (e.g., `onclick` attribute or inside `<body onload ="">` . Highly unlikely to use.
+
+- **Internal Script:** JavaScript code placed within [[script]] tags inside the HTML document (`<head>` or `<body>`). Also unlikely to use
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Page</title>
+</head>
+<body>
+  <script>
+    // Your JavaScript code here
+    alert("This is inline JavaScript!");
+  </script>
+</body>
+</html>
+```
+
+- **External:** JavaScript code stored in a separate `.js` file and linked to the HTML document using a `<script>` tag with `src` attribute. Goes into `<head>` like links. Usual method of scripting.
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Page</title>
+  <script src="myScript.js"></script>  </head>
+<body>
+  </body>
+</html>
+```
+
+HTML is treated as a *document* with different levels of hierarchy/relationships. This is known as Document Object Model ([[DOM]]).
