@@ -39,3 +39,8 @@ Can be done essentially in two ways -
 ### Changing attribute 
 
 In this process, we select a certain element/tag first. Within HTML elements, they can have different types of attributes which can also be changed to reflect changes. Check [[Change Attributes]] on how to do this.
+
+
+### Next Up
+
+Once the DOM model makes sense, look at [[2- Advanced JS-DOM Manipulation]] for things like dynamic changes to clicks and other events.
