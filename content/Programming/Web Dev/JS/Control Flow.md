@@ -13,6 +13,7 @@ if (condition) {
 
 2.  **switch**
 
+Remember that in the beginning `{` is used for separation. However, for cases, we use `:`
    ```js
 switch (expression) {
   case value1:
