@@ -1,3 +1,0 @@
-In JavaScript, [[addEventListener]] is a powerful method that allows you to attach **event listeners** to HTML elements. It essentially creates a watch on a specific element, waiting for a particular event (like a click) to occur. When the event happens, the provided *function* (called the event handler) is executed, enabling you to perform actions in response to user interaction.
-
-Using  `addEventListener` we can attach this listener to an element. When attached, we can use [anonymous functions](anonymous%20functions.md) along with [this](this) keyword to make changes to that element directly.  

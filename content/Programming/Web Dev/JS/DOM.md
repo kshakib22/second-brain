@@ -43,4 +43,4 @@ In this process, we select a certain element/tag first. Within HTML elements, th
 
 ### Next Up
 
-Once the DOM model makes sense, look at [[2- Advanced JS-DOM Manipulation]] for things like dynamic changes to clicks and other events.
+Once the DOM model makes sense, look at [[2- Advanced JS and DOM Manipulation]] for things like dynamic changes to clicks and other events.
