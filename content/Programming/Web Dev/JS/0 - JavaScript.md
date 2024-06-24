@@ -1,7 +1,7 @@
-
+This is my basic JS starting point. This page gives a general overview of JS and links to relevant topics to study further if needed.
 ## Working within a browser
 
-For chrome, use developer tools `->` sources. Then within submenu select Snippets. It will show `index.js `  on the left where we can add js scripts to see how it affects browser behavior. Then press `⌘+Enter` to run.
+For chrome, use developer tools `->` sources. Then within submenu select Snippets. It will show `index.js `  on the left where we can add JS scripts to see how it affects browser behavior. Then press `⌘+Enter` to run.
 
 ## Quick Overview
 

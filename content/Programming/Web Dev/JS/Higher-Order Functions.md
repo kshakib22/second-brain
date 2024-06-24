@@ -5,7 +5,7 @@ Higher-order functions are functions that either take other functions as **argum
 - More concise and readable code.
 - They facilitate functional programming techniques.
 
-Higher order function has one or more parameters as a function. In the example below, `calculate` is the HOF which has function `operation` as parameter. 
+Higher order function has one or more parameters as a function. In the example below, `calculate` is the HOF which has function `operation` as parameter. The function that is passed to an HOF is known as a [[callback function]].
 
 ```js
 // Higher-order function that takes two numbers and a function

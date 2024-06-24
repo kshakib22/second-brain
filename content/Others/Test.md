@@ -4,7 +4,9 @@ draft: false
 tags: 
 date:
 ---
-This is highly experimental now.
+This page is an experimental page where different aspects of notes can be sanity-checked.
+
+# Lorem Ipsum (h1)
 
 **Lorem Ipsum** is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
@@ -56,7 +58,7 @@ Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots 
 
 Now lets try a latex snippet for Euler's GCD algorithm using [[LaTeX]].
 
-## GCD Algorithm
+## GCD Algorithm (h2)
 
 The following algorithm computes the greatest common divisor (GCD) of two non-negative integers $a$ and  $b$.  The formula is **wrong** btw.
 
@@ -70,7 +72,7 @@ $$
 \end{equation}
 $$
 
-### Explanation
+### Explanation (h3)
 
 The algorithm repeatedly replaces \(a\) with \(b\) and \(b\) with the remainder of \(a\) divided by \(b\) until \(b\) becomes zero. The final value of \(a\) is the greatest common divisor.
 
@@ -78,3 +80,6 @@ Random Picture time!
 
 ![](Pasted%20image%2020240610051047.png)
 
+#### Highlighter testing (h4)
+
+<mark style="background: #FFF3A3A6;">This part of text should be highlighted within Obsidian.</mark> . <mark style="background: #FF5582A6;">This part should be highlighted as well, but with a different color than the first. </mark>
