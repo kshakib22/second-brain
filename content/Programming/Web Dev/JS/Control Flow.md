@@ -1,7 +1,7 @@
 The basic notation of control flow in JS involves `()` for any logical condition/expression and `{}` to indicate what to do for that logic. Examples are given below.
 1. **if, else if, else**
 
-   ```js
+```js
 if (condition) {
   // code to execute if condition is true
 } else if (otherCondition) {
@@ -13,8 +13,8 @@ if (condition) {
 
 2.  **switch**
 
-Remember that in the beginning `{` is used for separation. However, for cases, we use `:`
-   ```js
+Remember that in the beginning `{` is used for separation. However, for cases, we use `:`. The values refer to the value of `expression`. If none of them are satisfied, default is performed.
+```js
 switch (expression) {
   case value1:
     // code to execute if expression === value1
@@ -32,6 +32,18 @@ switch (expression) {
 for (initialization; condition; update) {
   // code to execute repeatedly while condition is true
 }
+
+for (let i = 0; i < 5; i++) {
+    console.log("Iteration:", i);
+}
+
+// Output:
+// Iteration: 0
+// Iteration: 1
+// Iteration: 2
+// Iteration: 3
+// Iteration: 4
+
 ```
 
 4. **while** loop
@@ -54,6 +66,17 @@ do {
 for (const element of iterable) {
   // code to execute for each element in the iterable
 }
+
+const colors = ["red", "green", "blue"];
+for (const color of colors) {
+    console.log(color);
+}
+
+// Output:
+// red
+// green
+// blue
+
 ```
 
 7. **for...in** Loop - This is commonly used for *Objects* (including arrays, but generally used for object properties)
@@ -61,6 +84,16 @@ for (const element of iterable) {
 for (const key in object) {
   // code to execute for each key
 }
+
+const person = { name: "Alice", age: 30 };
+for (const key in person) {
+    console.log(key, ":", person[key]);
+}
+
+// Output:
+// name : Alice
+// age : 30
+
 ```
 
 8. **break and continue** 
