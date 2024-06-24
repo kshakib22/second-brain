@@ -8,3 +8,12 @@ button.addEventListener("click", function() {
 });
 
 ```
+
+In the above example `this` refers to the button element. If we had done something like this - 
+```js
+document.addEventListener("keydown", function (event) {
+console.log(this);
+});
+```
+
+then `this` here actually represents the `document` itself which is the whole HTML.
