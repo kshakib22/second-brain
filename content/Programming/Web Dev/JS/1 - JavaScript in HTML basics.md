@@ -29,4 +29,6 @@
 </html>
 ```
 
-HTML is treated as a *document* with different levels of hierarchy/relationships. This is known as Document Object Model ([[DOM]]).
+HTML is treated as a *document* with different levels of hierarchy/relationships. This is known as Document Object Model ([[DOM]]). Using DOM we can extract different portions of the HTML (document) and treat them as object to dynamically change them. 
+
+Styling changes can be achieved after these elements have been extracted using [document.querySelector](document.querySelector.md). We can either change the HTML directly or change the CSS styling to make interactive changes. Check [Change Styling](Change%20Styling.md) where the different methods are mentioned.

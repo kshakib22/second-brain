@@ -15,6 +15,7 @@ This is especially useful if you want multiple changes to an element through one
 We can add CSS class (that have been defined in CSS sheet) to change the behavior of the current *element* that we select. This can be achieved by adding to the list we get from [[classList]]. We use `classList.add()` to existing elements.
 
 ```js
+
 var element = document.querySelector("h1"); //Could be any element like 'button'
 
 element.classList.add("huge-red"); // Makes h1 huge red and bold
@@ -41,4 +42,16 @@ var element = document.querySelector("h1"); //Could be any element like 'button'
 element.classList.toggle("huge-red"); // Toggles between normal and huge-red
 ```
 
-3. 
+3. **Removing a CSS Class:**
+
+ Use `classList.remove("class-name")` to remove a specific class from the element.
+
+```js
+var element = document.querySelector("h1"); 
+
+element.classList.add("huge-red"); // Adds the "huge-red" class (assuming it wasn't there before)
+
+// Later in your code, you might want to remove the class
+element.classList.remove("huge-red");  // Removes the "huge-red" class
+
+```
