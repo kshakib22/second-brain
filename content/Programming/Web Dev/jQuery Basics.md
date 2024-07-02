@@ -124,4 +124,20 @@ You can chain multiple animations together to create more complex effects. The `
 
 jQuery also provides other animation methods like `fadeOut()`, `fadeIn()`, `slideToggle()`, etc., that offer pre-defined animations for common use cases.
 
+```js
+<button id="fadeButton">Fade Text</button>
+<p id="fadeText">This text will fade.</p>
+
+<script>
+$(document).ready(function() {
+  $("#fadeText").hide(); // Initially hide the text
+
+  $("#fadeButton").click(function() {
+    $("#fadeText").fadeIn(500).fadeOut(500); // Fade in and then out over 500ms
+  });
+});
+</script>
+
+```
+
 Explore the jQuery documentation for a comprehensive list of animation methods and properties: [w3schools jQuery Animate](https://www.w3schools.com/jquery/jquery_animate.asp)

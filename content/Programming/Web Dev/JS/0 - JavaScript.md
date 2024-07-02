@@ -25,6 +25,7 @@ Use`//` for inline comment and `/* shizle goes here */` for comment snippet
 
 Check [[Functions]] for overview and syntax for functions.
 Check [[Control Flow]] for notes on loops and conditionals.
+Multiple conditionals are combined using **&&** for AND and **||** for OR.
 
 [[alert]] (message) -  brings up a pop up with the message
 [[prompt]] (message) - brings up a pop up with message that can take an input 
