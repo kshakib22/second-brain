@@ -153,18 +153,18 @@ export const CrawlLinks: QuartzTransformerPlugin<Partial<Options> | undefined> =
                   )
                   node.properties.src = dest
 
-                  // Wrap the element in a <center> tag
-                  const centerNode = {
-                    type: "element",
-                    tagName: "center",
-                    properties: {},
-                    children: [{ ...node }],
-                  }
+                  // Check if already processed to avoid infinite loop
+                  if (!node.properties._wrapped) {
+                    const centerNode = {
+                      type: "element",
+                      tagName: "center",
+                      properties: {},
+                      children: [{ ...node, properties: { ...node.properties, _wrapped: true } }],
+                    }
 
-                  // Replace the node with the centerNode
-                  node.tagName = "center"
-                  node.properties = {}
-                  node.children = [centerNode]
+                    // Replace the node with the centerNode
+                    Object.assign(node, centerNode)
+                  }
                 }
               }
             })
