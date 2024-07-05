@@ -152,6 +152,19 @@ export const CrawlLinks: QuartzTransformerPlugin<Partial<Options> | undefined> =
                     transformOptions,
                   )
                   node.properties.src = dest
+
+                  // Wrap the element in a <center> tag
+                  const centerNode = {
+                    type: "element",
+                    tagName: "center",
+                    properties: {},
+                    children: [{ ...node }],
+                  }
+
+                  // Replace the node with the centerNode
+                  node.tagName = "center"
+                  node.properties = {}
+                  node.children = [centerNode]
                 }
               }
             })
