@@ -4,12 +4,12 @@ It is a subset of [[trees]] where it still contains two children, nodes and root
 
 
 > [!NOTE] Title
-> ![bst|center](bst.svg)
+> Contents
 
- ![bst](bst.svg)
+> ![bst| center](bst.svg)<div style="text-align: center">Example of a binary search tree </div>
 
 <div style="text-align: center">
   Example of a binary search tree
 </div>
 
-As there is a structure in terms of value (greater/less) it is extremely useful for sorting purposes and efficient searching properties. 
+As there is a structure in terms of value (greater/less) it is extremely useful for sorting purposes and efficient searching properties.
