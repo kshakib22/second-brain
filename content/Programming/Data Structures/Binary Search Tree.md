@@ -3,7 +3,7 @@ It is a subset of [[trees]] where it still contains two children, nodes and root
 - the right value is **greater** than or equal to the parent value
 
 <div style="text-align: center;">
-    <img src="../../assets/bst.svg" alt="Binary Search Tree" />
+    <img src="../assets/bst.svg" alt="Binary Search Tree" />
 </div>
 <div style="text-align: center">
   Example of a binary search tree
