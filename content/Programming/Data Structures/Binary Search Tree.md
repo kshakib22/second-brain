@@ -3,7 +3,7 @@ It is a subset of [[trees]] where it still contains two children, nodes and root
 - the right value is **strictly greater** than the parent value
 
 
-![bst | center](bst.svg)
+![bst| center](../../assets/bst.svg)
 <div style="text-align: center">
   BST example
 </div>
