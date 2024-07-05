@@ -7,7 +7,9 @@ It is a subset of [[trees]] where it still contains two children, nodes and root
 <div style="text-align: center">
   BST example
 </div>
-<img src="">
+
+
+
 <center>
 <img src="file:///Users/shakib/Quartz/second-brain/content/assets/bst.svg">
 </center>
