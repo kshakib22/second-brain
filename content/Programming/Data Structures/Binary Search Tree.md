@@ -10,8 +10,4 @@ It is a subset of [[trees]] where it still contains two children, nodes and root
 
 
 
-<center>
-<img src="file:///Users/shakib/Quartz/second-brain/content/assets/bst.svg">
-</center>
-
 As there is a structure in terms of value (greater/less) it is extremely useful for sorting purposes and efficient searching properties.
