@@ -2,9 +2,12 @@ It is a subset of [[trees]] where it still contains two children, nodes and root
 - the left value is **less than or equal** to the parent value
 - the right value is **greater** than or equal to the parent value
 
-<div style="text-align: center;">
-    <img src="../assets/bst.svg" alt="Binary Search Tree" />
-</div>
+
+> [!NOTE] Title
+> ![bst|center](bst.svg)
+
+ ![bst](bst.svg)
+
 <div style="text-align: center">
   Example of a binary search tree
 </div>
