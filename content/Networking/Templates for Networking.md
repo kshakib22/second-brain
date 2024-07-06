@@ -6,7 +6,7 @@ Trying to keep track of different scenarios and use templates for that situation
 
 
 So at this stage, what does a successful communication might look like if luck is in your favor?
-For that kind of motivation, here is an example: ![](CleanShot%202024-06-21%20at%2002.28.02@2x.png)
+For that kind of motivation, here is an example: ![CleanShot 2024-06-21 at 02.28.02@2x | center](../assets/CleanShot%202024-06-21%20at%2002.28.02@2x.png)
 
 # After successful connection
 

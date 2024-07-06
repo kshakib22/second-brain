@@ -11,4 +11,4 @@ If the person is not connected, send a *connection request* + *personalized note
 > [!Warning]  No Note Approach
 > Stop applying for jobs if you're not sending notes for connection. It's hopeless for you.
 
-Once basics are understood, move on to [[Templates for Networking]] to expedite the process.
+Once basics are understood, move on to [[../Networking/Templates for Networking]] to expedite the process.
