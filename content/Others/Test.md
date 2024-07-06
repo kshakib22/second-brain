@@ -78,7 +78,7 @@ The algorithm repeatedly replaces \(a\) with \(b\) and \(b\) with the remainder 
 
 Random Picture time!
 
-![](Pasted%20image%2020240610051047.png)
+![Pasted image 20240610051047](../assets/Pasted%20image%2020240610051047.png)
 
 #### Highlighter testing (h4)
 
