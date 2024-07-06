@@ -11,7 +11,7 @@ This is my personal knowledge base, built on the principles of networked thinkin
 
 - [JavaScript](Programming/Web%20Dev/JS/0%20-%20JavaScript.md)
 
-The first sort of test-introductory page I created is the [Test](Test.md). It checks out different visual aspects such as text, code snippet, [[LaTeX]] code and placeholder text. Later on, I'll be creating a [[dashboard]] and some sort of [[dataview]] index. Here are some of the things I'll be working on/fixing:
+The first sort of test-introductory page I created is the [Test](Others/Test.md). It checks out different visual aspects such as text, code snippet, [Latex](../docs/features/Latex.md) code and placeholder text. Later on, I'll be creating a [[dashboard]] and some sort of [[dataview]] index. Here are some of the things I'll be working on/fixing:
 1. [[Markdown cheat sheet ]](pdf not working right. now)
 2. Notes on DSA 
 3. [README](README.md)

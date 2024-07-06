@@ -82,4 +82,4 @@ Random Picture time!
 
 #### Highlighter testing (h4)
 
-<mark style="background: #FFF3A3A6;">This part of text should be highlighted within Obsidian.</mark> . <mark style="background: #FF5582A6;">This part should be highlighted as well, but with a different color than the first. </mark>
+Highlight using double equals wrapping like `==text==`. ==This text should be highlighted==.
