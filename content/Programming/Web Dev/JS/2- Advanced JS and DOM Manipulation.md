@@ -6,3 +6,5 @@ To make changes in styling that simulates an animation, make styling changes (ch
 
 Check [[OOP in JavaScript]] for objects/constructors etc. Everything in JS is basically flexible, mutable objects and both properties and methods for an object can be added at anytime. It is essentially [Prototype based](Prototype%20based) language, which has a number of significant differences compared to traditional OOP.
 
+Once basic JS and DOM manipulation have been completed, take a look at the [brief overview of jQuery](../jQuery%20Basics.md) where basics of jQuery is shown to make DOM manipulation much easier and less verbose. After that move to [Introduction to NodeJS](../Nodejs/0-NodeJS.md) for backend stuff.
+

@@ -1,0 +1,1 @@
+This deals with the logic portion for the website. Interchangeably used with 'web-apps'. Meaning it determines *how* to respond to requests made to the server. After it has determined how to respond to the specific request, it also send *what* we see (usually a specific HTML).
