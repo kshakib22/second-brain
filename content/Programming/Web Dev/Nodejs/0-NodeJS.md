@@ -6,7 +6,7 @@ It uses an [[asynchronous]], event-driven, non-blocking I/O model, which makes i
 
 Native Node modules, also known as core modules, are built into Node.js. They provide essential functionalities without requiring any additional installation. These modules are written in JavaScript or C++. Some common ones are listed below -
 
-1. **fs** **(File System):**
+1. **fs** **([[File System]]):**
 	• Used for file operations like reading, writing, and manipulating the file system.
 2. **http** and **https**
 3. **path**
