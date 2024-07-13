@@ -20,5 +20,3 @@ The first sort of test-introductory page I created is the [Test](Others/Test.md)
 6.  Add doc for Obsidian changes/plugins
 7. Change heading font to SF mono (or body font)
 
-Test pdf - 
-![](assets/Plasma%20Globe%20Uprising.pdf)
