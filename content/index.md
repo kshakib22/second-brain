@@ -1,5 +1,5 @@
 ---
-title: Second Brain
+title: Brain Repository
 draft: false
 date:
 ---
