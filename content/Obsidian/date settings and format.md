@@ -1,8 +1,16 @@
+I first added - 
+
+```
+npm install moment-timezone
+```
+
+Then this is the code I used.
+
 ```tsx
 import { GlobalConfiguration } from "../cfg"
 import { ValidLocale } from "../i18n"
 import { QuartzPluginData } from "../plugins/vfile"
-import moment from "moment"
+import moment from "moment-timezone"
 
 interface Props {
   date: Date
@@ -21,10 +29,11 @@ export function getDate(cfg: GlobalConfiguration, data: QuartzPluginData): Date 
 }
 
 export function formatDate(d: Date, locale: ValidLocale = "en-US"): string {
-  return moment(d).format("MMMM Do, YYYY • h:mm a")
+  return moment.tz(d, "Asia/Dhaka").format("MMMM Do, YYYY • h:mm a")
 }
 
 export function Date({ date, locale }: Props) {
   return <>{formatDate(date, locale)}</>
 }
 ```
+
