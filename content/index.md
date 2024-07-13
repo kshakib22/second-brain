@@ -18,4 +18,5 @@ The first sort of test-introductory page I created is the [Test](Others/Test.md)
 4. Edit links to Github and Discord
 5.  Date stuff (modified/git/frontmatter)
 6.  Add doc for Obsidian changes/plugins
+7. Change heading font to SF mono (or body font)
 
