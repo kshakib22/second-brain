@@ -24,3 +24,5 @@ if (fileName !== 'index.md' && fileData.dates) {
   segments.push(`Last updated ${lastUpdatedDate}`);
 }
 ```
+
+- Completely revamped the [[date settings and format]].
