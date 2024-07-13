@@ -20,8 +20,8 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Libre Caslon Display",
-        body: "Fira Code",
+        header: "Major Mono Display",
+        body: "Nanum Gothic Coding",
         code: "JetBrains Mono",
       },
       colors: {
