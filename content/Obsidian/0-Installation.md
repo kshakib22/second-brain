@@ -26,3 +26,25 @@ if (fileName !== 'index.md' && fileData.dates) {
 ```
 
 - Completely revamped the [[date settings and format]].
+- Removed discord community from the footer in layout
+- In `base.scss` the `strong` tag uses a variable from `variable.scss`. I changed a few vars here so this is the code:
+
+```scss
+  $pageWidth: 700px;
+
+$mobileBreakpoint: 600px;
+
+$tabletBreakpoint: 1000px;
+
+$sidePanelWidth: 325px;
+
+$topSpacing: 6rem;
+
+$fullPageWidth: $pageWidth + 2 * $sidePanelWidth;
+
+$boldWeight: 700;
+
+$semiBoldWeight: 600;
+
+$normalWeight: 400;
+```
