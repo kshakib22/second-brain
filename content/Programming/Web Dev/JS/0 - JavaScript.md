@@ -37,6 +37,6 @@ Multiple conditionals are combined using **&&** for AND and **||** for OR.
 
 ## Compilation
 
-JS is neither [[interpreted]] nor [[compiled]] but uses a mix of both known as just-in-time ([[Just-In-Time]]) compiled language.
+JS is neither [interpreted](../../General%20Ideas/interpreted.md) nor [compiled](../../General%20Ideas/compiled.md) but uses a mix of both known as just-in-time ([[Just-In-Time]]) compiled language.
 
 Move to [[1 - JavaScript in HTML basics]] to have a gentle intro in context of JS as a script.

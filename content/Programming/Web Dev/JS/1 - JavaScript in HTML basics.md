@@ -1,7 +1,7 @@
 
 - **Inline:** JavaScript code written directly within HTML tags (e.g., `onclick` attribute or inside `<body onload ="">` . Highly unlikely to use.
 
-- **Internal Script:** JavaScript code placed within [[script]] tags inside the HTML document (`<head>` or `<body>`). Also unlikely to use
+- **Internal Script:** JavaScript code placed within [script](../HTML/script.md) tags inside the HTML document (`<head>` or `<body>`). Also unlikely to use
 ```html
 <!DOCTYPE html>
 <html>
