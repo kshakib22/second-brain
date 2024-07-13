@@ -21,7 +21,7 @@ const config: QuartzConfig = {
       cdnCaching: true,
       typography: {
         header: "Major Mono Display",
-        body: "Libre Baskerville",
+        body: "Nanum Gothic Coding",
         code: "JetBrains Mono",
       },
       colors: {
