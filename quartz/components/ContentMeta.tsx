@@ -29,8 +29,16 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
     if (text) {
       const segments: (string | JSX.Element)[] = []
 
-      if (fileData.dates) {
-        segments.push(formatDate(getDate(cfg, fileData)!, cfg.locale))
+      // if (fileData.dates) {
+      //   segments.push(formatDate(getDate(cfg, fileData)!, cfg.locale))
+      // }
+
+      const fileName = fileData.name // Assuming fileData has a name property
+
+      // Check if the file is not index.md
+      if (fileName !== "index.md" && fileData.dates) {
+        const lastUpdatedDate = formatDate(getDate(cfg, fileData)!, cfg.locale)
+        segments.push(`Last updated ${lastUpdatedDate}`)
       }
 
       // Display reading time if enabled

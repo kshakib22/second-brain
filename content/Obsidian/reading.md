@@ -1,0 +1,1 @@
+Go to `quartz -> components -> ContentMeta.tsx` and change default option for `showReadingTime` to false.
