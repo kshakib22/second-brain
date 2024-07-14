@@ -83,3 +83,11 @@ Random Picture time!
 #### Highlighter testing (h4)
 
 Highlight using double equals wrapping like `==text==`. ==This text should be highlighted==.
+
+#### Below contains a random pdf to test out iframe template that I need for adding pdf to site
+
+<iframe src="../assets/Plasma Globe Uprising.pdf" width="100%" height="842" style="border:none;">
+    Your browser does not support iframes.
+</iframe>
+
+
