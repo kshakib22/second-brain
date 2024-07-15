@@ -5,3 +5,21 @@
 - **Middleware:** It allows you to add custom functions (middleware) to process requests and responses.
 
 When we start an Express.js server, it listens on a specified port for incoming HTTP requests. The server is usually run on [localhost](../localhost) during development to test the application. Look into [HTTP requests](../HTTP%20requests.md) to learn about the basic requests a server deals with.
+
+The following code handles the GET request to the root URL (simply contains `"/"` without anything being followed). 
+
+`app.get(”/”)`:
+	•	Sets up an HTTP GET route for the root URL ("/").
+	•	When a client sends a GET request to the root URL, this route is triggered.
+	
+`(req, res) => {…}`:
+	•	Callback function that handles the request and response.
+	•	req: Represents the incoming request object.
+	•	res: Represents the outgoing response object.
+Check [arrow function](arrow%20function.md) for this definition style.
+```js
+app.get("/", (req,res) => {
+	console.log(req);
+});
+```
+

@@ -5,6 +5,46 @@ Anonymous functions are functions in programming that **don't have a pre-defined
 - Often stored in variables or passed as arguments to other functions.
 - Can be passed around as arguments, allowing more flexibility
 
+```js
+const arr = [1, 2, 3];
+const doubled = arr.map(function (num) {
+  return num * 2;
+});
+console.log(doubled); // [2, 4, 6]
+```
+<div style="text-align: center">
+  Example of anonymous regular function
+</div>
+
+For the following example, check [anonymous functions](anonymous%20functions.md) for more.
+```js
+const arr = [1, 2, 3];
+const doubled = arr.map((num) => num * 2);
+console.log(doubled); // [2, 4, 6]
+```
+<div style="text-align: center">
+  Example of anonymous arrow function
+</div>
+
+For the following example, check [callback function](callback%20function.md) for more.
+```js
+// Array of numbers
+const numbers = [1, 2, 3, 4, 5];
+
+// Using an anonymous callback function with the .map() method
+const doubled = numbers.map(function(num) {
+  return num * 2;
+});
+
+console.log(doubled); // Output: [2, 4, 6, 8, 10]
+```
+<div style="text-align: center">
+  Example of anonymous callback function
+</div>
+
+
+
+
 
 ## Use Cases
 
@@ -24,3 +64,5 @@ button.addEventListener("click", function() {
 });
 
 ```
+
+
