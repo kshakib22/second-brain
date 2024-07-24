@@ -15,7 +15,7 @@ The general method/approach at which nodes are accessed can be of two types - **
 We start from the root, keep building connections in a single direction then come back and complete other directions that were left incomplete.
 ### Pre-order traversal
 
-**Pre** refers to the fact that the root node is visited **before** its children.Pre-order traversal visits nodes in the following order-
+**Pre** refers to the fact that the root node is visited **before** its children. Pre-order traversal visits nodes in the following order-
 
 
 
