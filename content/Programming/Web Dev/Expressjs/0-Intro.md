@@ -9,13 +9,14 @@ When we start an Express.js server, it listens on a specified port for incoming 
 The following code handles the GET request to the root URL (simply contains `"/"` without anything being followed). 
 
 `app.get(”/”)`:
-	•	Sets up an HTTP GET route for the root URL ("/").
-	•	When a client sends a GET request to the root URL, this route is triggered.
-	
+- Sets up an HTTP GET route for the root URL ("/").
+- When a client sends a GET request to the root URL, this route is triggered.
+
 `(req, res) => {…}`:
-	•	Callback function that handles the request and response.
-	•	req: Represents the incoming request object.
-	•	res: Represents the outgoing response object.
+Callback function that handles the request and response.
+- req: Represents the incoming request object.
+- res: Represents the outgoing response object.
+
 Details on `(req, res)` is at [[Request and Response in Express]] . Check [arrow function](arrow%20function.md) for this type of function definition style.
 
 ```js
