@@ -33,4 +33,4 @@ myEmitter.on('event', () => {
 myEmitter.emit('event');
 ```
 
-For simplifying our experience with Node, we will learn building backend/server using Express.js framework. Express is started from [Intro to Express js](../Expressjs/0-Intro.md). To review how basic node and npm packages work for beginners in setting up projects, look at [Setting Up Projects Using Node and npm for Beginners](../Setting%20Up%20Projects%20Using%20Node%20and%20npm%20for%20Beginners.md). 
+For simplifying our experience with Node, we will learn building backend/server using Express.js framework. Express is started from [Intro to Express js](../../Backend%20Dev/Expressjs/0-Intro.md). To review how basic node and npm packages work for beginners in setting up projects, look at [Setting Up Projects Using Node and npm for Beginners](../Setting%20Up%20Projects%20Using%20Node%20and%20npm%20for%20Beginners.md). 

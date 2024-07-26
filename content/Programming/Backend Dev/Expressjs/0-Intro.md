@@ -4,7 +4,7 @@
 - **Routing:** It helps define different routes for your application, like different pages or API endpoints.
 - **Middleware:** It allows you to add custom functions (middleware) to process requests and responses.
 
-When we start an Express.js server, it listens on a specified port for incoming HTTP requests. The server is usually run on [localhost](../localhost) during development to test the application. Look into [HTTP requests](../HTTP%20requests.md) to learn about the basic requests a server deals with.
+When we start an Express.js server, it listens on a specified port for incoming HTTP requests. The server is usually run on [localhost](../../Web%20Dev/localhost.md) during development to test the application. Look into [HTTP requests](../HTTP%20requests.md) to learn about the basic requests a server deals with.
 
 The following code handles the GET request to the root URL (simply contains `"/"` without anything being followed). 
 
