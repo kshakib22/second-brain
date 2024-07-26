@@ -26,9 +26,8 @@ Purpose: Apply partial modifications to a resource.
 	•	Updates part of the resource.
 	•	More efficient for partial updates than PUT.
 
-5. DELETE
-
-	•	Purpose: Remove a resource from the server.
+5. **DELETE**
+Purpose: Remove a resource from the server.
 	•	Characteristics:
 	•	Idempotent (multiple requests have the same effect).
 	•	Can delete resources.

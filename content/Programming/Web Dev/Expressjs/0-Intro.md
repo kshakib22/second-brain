@@ -16,7 +16,8 @@ The following code handles the GET request to the root URL (simply contains `"/"
 	•	Callback function that handles the request and response.
 	•	req: Represents the incoming request object.
 	•	res: Represents the outgoing response object.
-Check [arrow function](arrow%20function.md) for this definition style.
+Details on `(req, res)` is at [[Request and Response in Express]] . Check [arrow function](arrow%20function.md) for this type of function definition style.
+
 ```js
 app.get("/", (req,res) => {
 	console.log(req);
