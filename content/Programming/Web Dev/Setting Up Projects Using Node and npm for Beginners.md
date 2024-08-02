@@ -34,6 +34,8 @@ npm list
 
 ## Setting up and running a Node project
 
+If a refresher on general file/folder structure of node applications are needed, check out [File Structure for a Node.js Application](../Backend%20Dev/File%20Structure%20for%20a%20Node.js%20Application.md) before running a project to have a clear overview.
+
 - Firstly, check for `package.json`.  The presence of a `package.json` file in the root directory of the repository indicates that it’s a Node.js project. Open the `package.json` file to see the project details.
 
 An existing project already has the required dependencies listed on `package.json` file. This means  simply install it using this command:
