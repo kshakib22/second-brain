@@ -3,6 +3,8 @@ Middleware in web development refers to software that acts as a **bridge** betwe
 - **Request and Response Handling**: Middleware functions typically handle HTTP requests and responses, processing them *before* they reach the server’s core logic or before the responses are sent back to the client.
 - **Pre-Processing**: Middleware can perform operations such as logging, authentication, and session management, transforming the request object before it reaches the main application logic.
 - **Post-Processing**: Middleware can also modify the response object before sending it back to the client, for example, formatting data, adding headers, or compressing responses.
-- **Authentication**
+- **Authentication**: Verify whether request is allowed before we process them.
 
-A commmon example of this is [[body-parser]] used in Node for pre-processing. Another used for logging is the [[morgan]] middleware.
+**Benefits:** By introducing a middleware, we allow for *separation of concerns*, making the codebase more modular and maintainable. Middleware functions can be reused across different parts of the application or even in different projects. This also facilitates scaling by allowing developers to add, remove, or modify middleware functions *without* impacting other parts of the system.
+
+A common example of this is [[body-parser]] used in Node for pre-processing. Another used for logging is the [[morgan]] middleware.

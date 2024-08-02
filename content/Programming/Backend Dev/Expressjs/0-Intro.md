@@ -20,8 +20,10 @@ Callback function that handles the request and response.
 Details on `(req, res)` is at [[Request and Response in Express]] . Check [arrow function](arrow%20function.md) for this type of function definition style.
 
 ```js
+const app = express();
 app.get("/", (req,res) => {
 	console.log(req);
 });
 ```
 
+Move to 1 - [[1-Basics of express and backend]] after this intro page.
