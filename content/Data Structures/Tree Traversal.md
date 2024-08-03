@@ -1,6 +1,6 @@
 The general method/approach at which nodes are accessed can be of two types - **Breadth First** & **Depth First**
 
-![bfs-dfs| center](../../assets/Pasted%20image%2020240710180914.png)
+![bfs-dfs| center](../assets/Pasted%20image%2020240710180914.png)
 
 **Methods under breadth first**:
 * Level order traversal (sometimes just referred to as bfs) 
