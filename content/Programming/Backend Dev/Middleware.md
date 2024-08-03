@@ -5,13 +5,18 @@ Middleware in web development generally refers to **middleware functions** that 
 - **Post-Processing**: Middleware can also modify the response object before sending it back to the client, for example, formatting data, adding headers, or compressing responses.
 - **Authentication**: Verify whether request is allowed before we process them.
 
+
+> [!NOTE] Accessing `req, res, next()`
+> When we define a middleware function in Express, it *automatically* gets the `req`, `res`, and `next` parameters from the Express framework.
+
 Middleware functions are executed sequentially in the *order they are defined* in the application. Each middleware function **must** either:
 - Call `next()` to pass control to the next middleware function.
 - End the request-response cycle (e.g., by sending a response).
 
 
-> [!NOTE] Acessing `req, res, next()`
-> When we define a middleware function in Express, it *automatically* gets the `req`, `res`, and `next` parameters from the Express framework.
+> [!warning] Function parameters
+> Even if a middleware function doesn’t use `res` or `req`, the function signature must include all three parameters (`req`, `res`, `next`). This is because Express expects middleware functions to adhere to this signature to work correctly.
+
 
 **Benefits:** By introducing a middleware, we allow for *separation of concerns*, making the codebase more modular and maintainable. Middleware functions can be reused across different parts of the application or even in different projects. This also facilitates scaling by allowing developers to add, remove, or modify middleware functions *without* impacting other parts of the system.
 
