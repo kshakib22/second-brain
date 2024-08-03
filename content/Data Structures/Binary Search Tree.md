@@ -43,3 +43,8 @@ def insertNode(self, root, data):
 
 ## Traversal
 
+As mentions in [Tree Traversal](Tree%20Traversal.md), we can traverse the BST in three different ways as well:
+1. Pre-order
+2. Post-order
+3. In-order
+As the c

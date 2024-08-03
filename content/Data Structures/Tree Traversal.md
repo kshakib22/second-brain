@@ -23,7 +23,7 @@ We start from the root, keep building connections in a single direction then com
 * Left subtree
 * Right subtree
 
-![pre-order|center](../../assets/Pasted%20image%2020240710181351.png)
+![pre-order|center](../assets/Pasted%20image%2020240710181351.png)
 
 ### In-order traversal
 
@@ -33,7 +33,7 @@ We start from the root, keep building connections in a single direction then com
 * **Root node**
 * Right subtree
 
-![in-order](../../assets/Pasted%20image%2020240710181434.png)
+![in-order](../assets/Pasted%20image%2020240710181434.png)
 
 ### Post-order Traversal:
 
@@ -43,7 +43,7 @@ We start from the root, keep building connections in a single direction then com
 * Right subtree
 * **Root node**
 
-![post-order](../../assets/Pasted%20image%2020240710181516.png)
+![post-order](../assets/Pasted%20image%2020240710181516.png)
 
 ## Breadth First traversal
 
@@ -53,7 +53,7 @@ We start from the root, build connections uniformly in *both* directions and pro
 
 **Level order traversal**, also known as **breadth-first search (BFS)**, is a tree traversal algorithm that visits all nodes at a given **level** (same distance from the root) before moving to the next level. Next level starts from the left every time.
 
-![level-order](../../assets/Pasted%20image%2020240710181654.png)
+![level-order](../assets/Pasted%20image%2020240710181654.png)
 
 
 It is important to note that to implement BFS/level order, we require **[[Queue]]** data structure. The main reason for it is the FIFO principle in queue which is required for such traversal. How is this achieved using a queue? In the following way -
