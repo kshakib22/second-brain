@@ -8,3 +8,8 @@
 enter code here
 
 ```
+
+### Complexities
+
+**Time Complexity:** $\mathcal{O}(\log n)$ 
+**Space Complexity:** $\mathcal{O}(n)$  
