@@ -12,7 +12,7 @@ It is a subset of [[Trees]] where it still contains two children, nodes and root
 - As there is a structure in terms of value (greater/less) it is extremely useful for sorting purposes and efficient searching properties.
 - Insertion and Deletion of nodes is very efficient (point of interest halves the tree everytime)
 
-For theoretical explanation of tree traversal methods, check [[Tree Traversal]].
+For theoretical explanation of tree traversal methods, check [[Tree Traversal Theory]].
 ## Insertion
 
  1. Every time we try to insert, we have a condition to check: if `current value <= node value`,  *go left*. If `current value <= node value`, *go right*. Additionally, we need two inputs - **root** and **value to be entered**. 
@@ -43,8 +43,10 @@ def insertNode(self, root, data):
 
 ## Traversal
 
-As mentions in [Tree Traversal](Tree%20Traversal.md), we can traverse the BST in three different ways as well:
+As mentions in [Tree Traversal Theory](Tree%20Traversal%20Theory.md), we can traverse the BST in four different ways as well:
 1. Pre-order
 2. Post-order
 3. In-order
-As the c
+4. Level-order (or BFS)
+As this part is slightly redundant for both trees and BST, find the code and notes in [Tree Traversal Code](Tree%20Traversal%20Code.md).
+

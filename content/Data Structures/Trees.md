@@ -33,4 +33,4 @@ A tree is a nonlinear data structure with hierarchical relationships between its
 * **Complexity for Some Operations:** Inserting or deleting elements in certain tree structures can be complex.
 * **Memory Usage:** Storing unused space in the tree can be inefficient compared to arrays for simple data.
 
-For tree traversal methods, check [[Tree Traversal]].
+For tree traversal methods, check [[Tree Traversal Theory]].

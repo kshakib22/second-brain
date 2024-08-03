@@ -66,4 +66,4 @@ _Note_ : For the following definitions below, try to relate their definitions in
 * BSTs are excellent for searching and keeping data sorted.
 * Self-balancing BSTs offer guaranteed worst-case performance for search, insertion, and deletion.
 
-For tree traversal methods, check [[Tree Traversal]].
+For tree traversal methods, check [[Tree Traversal Theory]].
