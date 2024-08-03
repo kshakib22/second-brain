@@ -1,6 +1,6 @@
 Who to DM?
 
-Mainly the people in your role, or very similar role to begin with. The idea of contacting only the recruiters/hiring managers is a bit flawed because remember our [[P1]] is to get information. Also getting exposure is important as well ([P2](P2.md)). 
+Mainly the people in your role, or very similar role to begin with. The idea of contacting only the recruiters/hiring managers is a bit flawed because remember our [[Explanations/P1]] is to get information. Also getting exposure is important as well ([P2](Explanations/P2.md)). 
 
 ### Hierarchy
 

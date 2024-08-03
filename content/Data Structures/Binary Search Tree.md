@@ -15,4 +15,4 @@ It is a subset of [[Trees]] where it still contains two children, nodes and root
 For tree traversal methods, check [[Tree Traversal]].
 ## Insertion
 
-Every time we try to insert, we have a condition to check: if current value <= node value *go left*. If greater, *go right*. Additionally, we need two inputs - **root** and **value to be entered**.
+Every time we try to insert, we have a condition to check: if `current value <= node value` *go left*. If greater, *go right*. Additionally, we need two inputs - **root** and **value to be entered**.
