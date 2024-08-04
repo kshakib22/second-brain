@@ -41,6 +41,12 @@ def insertNode(self, root, data):
 			self.insertNode(root.rightChild, data)
 ```
 
+### Complexities
+
+**Time Complexity:** $\mathcal{O}(\log n)$ 
+**Space Complexity:**  $\mathcal{O}(\log n)$ 
+
+Because the points of interest halves everytime, the time complexity is  $\mathcal{O}(\log n)$ . Same for space, as the same amount of times the recursive function uses the memory stack. 
 ## Traversal
 
 As mentions in [Tree Traversal Theory](Tree%20Traversal%20Theory.md), we can traverse the BST in four different ways as well:
@@ -50,3 +56,39 @@ As mentions in [Tree Traversal Theory](Tree%20Traversal%20Theory.md), we can tra
 4. Level-order (or BFS)
 As this part is slightly redundant for both trees and BST, find the code and notes in [Tree Traversal Code](Tree%20Traversal%20Code.md).
 
+
+## Search
+
+1. First we check if value is equal to rootnode value. If not we compare whether greater or less to move into left or right child
+2. Depending on left/right move, if value equals this child value we return. Otherwise we *repeat* using this child as root, hence recursively call search on this child and continue.
+
+
+```python
+def search(self, root, find):
+	if root is None:
+		print(f"{find} not found")
+		return False
+	if root.data == find:
+		print(f"{find} found")
+		return True
+	elif find < root.data:
+		self.search(root.leftChild, find)
+	elif find > root.data:
+		self.search(root.rightChild, find)
+	else:
+		print(f"{find} not found")
+		return False
+
+```
+
+### Complexities
+
+**Time Complexity:** $\mathcal{O}(\log n)$ 
+**Space Complexity:**  $\mathcal{O}(\log n)$ 
+
+Because the points of interest halves everytime, the time complexity is  $\mathcal{O}(\log n)$ . Same for space, as the same amount of times the recursive function uses the memory stack. 
+
+
+## Delete
+
+Deleting a node involves multiple edge cases and a longer explanation. That's why it is in a separate page [[BST - delete node]]. 
