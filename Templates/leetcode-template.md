@@ -12,12 +12,12 @@ tags:
 
 **Example 1:**
 
-> `Input: `
+> `Input: `  
 > `Output: `
 
 **Example 2:**
 
-> `Input: `
+> `Input: `  
 > `Output: `
 
 
@@ -41,5 +41,5 @@ tags:
 
 ### Complexities
 
-**Time Complexity:** $\mathcal{O}(n)$ 
+**Time Complexity:** $\mathcal{O}(n)$   
 **Space Complexity:** $\mathcal{O}(n)$  
