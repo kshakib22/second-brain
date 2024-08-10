@@ -28,7 +28,7 @@ tags:
 
 ## Approach & Explanation
 
-> Write down your thought process, how you approached the problem, and the rationale behind your solution.
+ Write down your thought process, how you approached the problem, and the rationale behind your solution.
 
 ---
 
