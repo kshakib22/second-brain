@@ -8,6 +8,7 @@ tags:
 ---
 
 ## Problem Statement
+
 > Include a brief description of the problem or a link to the LeetCode problem page.
 
 **Example 1:**
@@ -22,13 +23,13 @@ tags:
 
 
 
-[Problem Link](link)
+Problem Link
 
 ---
 
 ## Approach & Explanation
 
- Write down your thought process, how you approached the problem, and the rationale behind your solution.
+
 
 ---
 
