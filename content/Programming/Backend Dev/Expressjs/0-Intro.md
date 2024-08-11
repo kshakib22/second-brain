@@ -23,6 +23,7 @@ Details on `(req, res)` is at [[Request and Response in Express]] . Check [arrow
 const app = express();
 app.get("/", (req,res) => {
 	console.log(req);
+	res.sendFile("index.html")
 });
 ```
 
