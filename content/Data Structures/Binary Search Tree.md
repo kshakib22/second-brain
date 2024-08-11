@@ -1,7 +1,8 @@
 It is a subset of [[Trees]] where it still contains two children, nodes and root node.
-- the left value is **less than or equal** to the parent value
+- the left value is **less than** to the parent value
 - the right value is **strictly greater** than the parent value
 
+*Note:* Repetition of values are not dealt with here because that is subjective to the application
 
 ![bst| center](../assets/bst.svg)
 <div style="text-align: center">
