@@ -4,13 +4,13 @@ EJS stands for **Embedded JavaScript**, a templating language that lets us embed
 
 You can embed JavaScript logic directly within HTML using EJS syntax.
 
-**Template Tags:**
-  - `<%= %>`: Outputs the value into the HTML, and escapes it to prevent XSS attacks.
-  - `<%- %>`: Outputs the unescaped value into the HTML, useful for rendering raw HTML content.
-  - `<% %>`: Executes JavaScript code without producing output.
-
-**Partial Templates:** Allows us to include and reuse code snippets across different templates. For example, we can have a header or footer template that is included on every page.
-
+| EJS Tag Type         | Syntax             | Function                                                             |
+| -------------------- | ------------------ | -------------------------------------------------------------------- |
+| Output Tag           | `<%= %>`           | Embeds and outputs the value of an expression into HTML.             |
+| Unescaped Output Tag | `<%- %>`           | Outputs the value of an expression without escaping HTML characters. |
+| Scriptlet Tag        | `<% %>`            | Executes JavaScript code without outputting anything to the HTML.    |
+| Comment Tag          | `<%# %>`           | Adds comments that won't appear in the rendered HTML.                |
+| Include Tag          | `<%- include() %>` | Embeds another EJS template or partial into the current template.    |
 ### EJS and Server-Side Rendering (SSR)
 
 - **Server-Side Rendering:** EJS is used for rendering HTML on the server before it is sent to the client. This is crucial for dynamic web applications, as it allows the server to insert data into the HTML before it reaches the user's browser.
