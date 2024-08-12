@@ -96,7 +96,16 @@ for (const key in person) {
 
 ```
 
-8. **break and continue** 
+8. **.forEach() method** - This method is used to execute a provided *function* once for each element in an array. Also, it is commonly used with arrow functions. 
+```js
+const numbers = [1, 2, 3, 4];
+
+numbers.forEach((number) => {
+  console.log(number * 2); // Output: 2, 4, 6, 8
+});
+```
+
+1. **break and continue** 
 - **break**: Exits the loop or switch statement immediately.
 - **continue**: Skips the current iteration and proceeds to the next iteration of the loop.
 ```js

@@ -4,24 +4,28 @@ EJS stands for **Embedded JavaScript**, a templating language that lets us embed
 
 You can embed JavaScript logic directly within HTML using EJS syntax.
 
-| EJS Tag Type         | Syntax             | Function                                                             |
-| -------------------- | ------------------ | -------------------------------------------------------------------- |
-| Output Tag           | `<%= %>`           | Embeds and outputs the value of an expression into HTML.             |
-| Unescaped Output Tag | `<%- %>`           | Outputs the value of an expression without escaping HTML characters. |
-| Scriptlet Tag        | `<% %>`            | Executes JavaScript code without outputting anything to the HTML.    |
-| Comment Tag          | `<%# %>`           | Adds comments that won't appear in the rendered HTML.                |
-| Include Tag          | `<%- include() %>` | Embeds another EJS template or partial into the current template.    |
+| EJS Tag Type                       | Syntax             | Function                                                             |
+| ---------------------------------- | ------------------ | -------------------------------------------------------------------- |
+| Output Tag                         | `<%= %>`           | Embeds and outputs the value of an expression into HTML.             |
+| Unescaped Output Tag (Render HTML) | `<%- %>`           | Outputs the value of an expression without escaping HTML characters. |
+| Scriptlet Tag (only JS code)       | `<% %>`            | Executes JavaScript code without outputting anything to the HTML.    |
+| Comment Tag                        | `<%# %>`           | Adds comments that won't appear in the rendered HTML.                |
+| Include Tag                        | `<%- include() %>` | Embeds another EJS template or partial into the current template.    |
+
+
+> [!NOTE] EJS files
+> EJS files typically looks like a typical HTML file, with EJS code in different parts of it
+
 ### EJS and Server-Side Rendering (SSR)
 
 - **Server-Side Rendering:** EJS is used for rendering HTML on the server before it is sent to the client. This is crucial for dynamic web applications, as it allows the server to insert data into the HTML before it reaches the user's browser.
 - **Integration with Express.js:**
   - Express provides `res.render()` to render EJS templates. This method takes the template file (without the `.ejs` extension) and an object containing the dynamic data to be passed into the template.
-  - Example:
-    ```javascript
-    app.get('/dashboard', (req, res) => {
-      res.render('dashboard', { user: req.user, title: 'User Dashboard' });
-    });
-    ```
+```javascript
+app.get('/dashboard', (req, res) => {
+  res.render('dashboard', { user: req.user, title: 'User Dashboard' });
+});
+```
   - In this example, `dashboard.ejs` is rendered with dynamic data (`user` and `title`), creating a personalized experience for the user.
 
 ## Client-Side vs. Server-Side
@@ -78,3 +82,25 @@ app.get('/profile', (req, res) => {
   </body>
   </html>
   ```
+
+## Locals
+
+In EJS `locals` are basically **all** the variables passed from the server to an EJS template. 
+- Locals variable *always* exist. We access variables passed using for example `locals.varName`
+- We can check using locals whether certain data exists, because EJS doesn't check it by default
+- locals make it easy to handle cases where some data might be *optional or conditional*.
+- This is especially useful in complex views where different parts of the page need to be shown or hidden based on the availability of data.
+
+## User Data to Server
+
+What about the other direction when we want dynamic data from the user into our server logic? This will usually involve a POST method and a way to receive that data from HTML using a form, for example Consider the following HTML where two vairables are `username` and `password` : 
+
+```html
+<form action="/submit" method="POST">
+  <input type="text" name="username" placeholder="Enter your username">
+  <input type="password" name="password" placeholder="Enter your password">
+  <button type="submit">Submit</button>
+</form>
+```
+
+These can be sent 

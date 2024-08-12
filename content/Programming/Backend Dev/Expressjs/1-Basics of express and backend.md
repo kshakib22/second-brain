@@ -11,6 +11,7 @@ app.listen(3000, () => {
 
 -  the use of [body-parser](../body-parser.md) module gives us access to `req.body` allowing better control of the request
 
+To get data from user input to the server (for example, HTML form variables) we use POST method, along with `req.body["variableName"]`
 
 ## Dynamic server side
 
@@ -18,5 +19,6 @@ After getting familiar with the basics of Express.js and middleware, we have enc
 
 - **res.render()** is used to send dynamic HTML pages. These pages can change based on variables, user input, or data retrieved from a database.
 - Dynamic pages are useful for user dashboards, content management systems, e-commerce sites, etc., where content needs to adapt to the user or context.
-- EJS is used for *server side rendering* where processing is done before it is sent back to user.
+- EJS is used for *server side rendering*  where processing is done before it is sent back to user.
+- Pay attention to how JS loops are written line-by-line in EJS and how curly braces are closed.
 
