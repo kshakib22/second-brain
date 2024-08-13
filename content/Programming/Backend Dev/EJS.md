@@ -89,11 +89,54 @@ In EJS `locals` are basically **all** the variables passed from the server to an
 - Locals variable *always* exist. We access variables passed using for example `locals.varName`
 - We can check using locals whether certain data exists, because EJS doesn't check it by default
 - locals make it easy to handle cases where some data might be *optional or conditional*.
-- This is especially useful in complex views where different parts of the page need to be shown or hidden based on the availability of data.
+- This is especially useful in complex views where different parts of the page need to be shown or hidden based on the availability of data.  
+
+> [!warning] Empty locals
+> If we call   `res.render("index.ejs");` without passing any data, `locals` will *always* be empty
+
+The following example shows a typical use of locals to ensure a certain variable (`username` in this case) has been passed to the server properly. In case it doesn't exist, we show something else in the HTML.
+
+```js
+const express = require('express');
+const app = express();
+
+app.get('/profile', function(req, res) {
+    // Simulating a situation where 'username' might or might not be present
+    const user = req.query.user ? { username: req.query.user } : {};
+    
+    // Passing user object to the EJS template
+    res.render('profile', user);
+});
+
+app.listen(3000, () => {
+    console.log('Server is running on port 3000');
+});
+```
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+</head>
+<body>
+    <% if (locals.username) { %>
+        <h1>Welcome, <%= locals.username %>!</h1>
+    <% } else { %>
+        <h1>Welcome, Guest!</h1>
+    <% } %>
+</body>
+</html>
+```
+
+
+
 
 ## User Data to Server
 
-What about the other direction when we want dynamic data from the user into our server logic? This will usually involve a POST method and a way to receive that data from HTML using a form, for example Consider the following HTML where two vairables are `username` and `password` : 
+What about the other direction when we want dynamic data from the user into our server logic? This will usually involve a POST method and a way to receive that data from HTML using a form, for example. The form data is sent as part of the HTTP request, typically through `req.body` for POST requests. Consider the following HTML where two variables are `username` and `password` : 
 
 ```html
 <form action="/submit" method="POST">
@@ -103,4 +146,10 @@ What about the other direction when we want dynamic data from the user into our 
 </form>
 ```
 
-These can be sent 
+These can be sent through the javascript app code (considering password was correct, also checked in the app):
+```js
+app.post('/submit', function(req, res) {
+  const username = req.body.username;
+  res.render('welcome', { username: username });
+});
+```

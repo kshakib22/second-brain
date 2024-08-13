@@ -2,9 +2,9 @@ The basic notation of control flow in JS involves `()` for any logical condition
 1. **if, else if, else**
 
 ```js
-if (condition) {
+if (condition || alternativeCondition) {
   // code to execute if condition is true
-} else if (otherCondition) {
+} else if (otherCondition && otherCondition2) {
   // code to execute if otherCondition is true
 } else {
   // code to execute if none of the conditions are true
