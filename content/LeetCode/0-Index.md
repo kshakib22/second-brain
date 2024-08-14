@@ -38,8 +38,8 @@ For Python specific tricks, check [Python Tricks Sheet](../Programming/Python/Py
     
     - [94. Binary Tree Inorder Traversal](94.%20Binary%20Tree%20Inorder%20Traversal.md)
     - [98. Validate Binary Search Tree](98.%20Validate%20Binary%20Search%20Tree.md)
-    - Maximum Depth of Binary Tree
-    - Lowest Common Ancestor of a Binary Search Tree
+    - [104. Maximum Depth of Binary Tree](104.%20Maximum%20Depth%20of%20Binary%20Tree.md)
+    - [235. Lowest Common Ancestor of a Binary Search Tree](235.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree.md)
     - Serialize and Deserialize Binary Tree
 - **Graphs:**
     
