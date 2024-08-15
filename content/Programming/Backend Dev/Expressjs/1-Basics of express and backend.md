@@ -47,3 +47,6 @@ Server (Express.js) -> Send Response (Rendered HTML) -> Browser
    v
 User (Browser)
 ```
+
+Look up how folder is structures in EJS projects at [EJS folder structure](../EJS%20folder%20structure.md). 
+- The `app.use(express.static("public"))` line in an Express.js application serves static files like images, CSS, JavaScript, etc., from the public directory.

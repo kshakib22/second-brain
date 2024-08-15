@@ -11,7 +11,7 @@ You can embed JavaScript logic directly within HTML using EJS syntax.
 | Scriptlet Tag (only JS code)       | `<% %>`            | Executes JavaScript code without outputting anything to the HTML.    |
 | Comment Tag                        | `<%# %>`           | Adds comments that won't appear in the rendered HTML.                |
 | Include Tag                        | `<%- include() %>` | Embeds another EJS template or partial into the current template.    |
-
+More about partials and code reusablity in [EJS partials and layouts](EJS%20partials%20and%20layouts.md).
 
 > [!NOTE] EJS files
 > EJS files typically looks like a typical HTML file, with EJS code in different parts of it
