@@ -50,3 +50,5 @@ User (Browser)
 
 Look up how folder is structures in EJS projects at [EJS folder structure](../EJS%20folder%20structure.md). 
 - The `app.use(express.static("public"))` line in an Express.js application serves static files like images, CSS, JavaScript, etc., from the public directory.
+
+After understanding basics of HTTP requests, dealing with these requests and its data, dynamic server-user data transfer, we move to learning basics of [Application Programming Interfaces (APIs)](2%20-%20Application%20Programming%20Interfaces%20(APIs).md). 
