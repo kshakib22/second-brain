@@ -14,13 +14,13 @@ The algorithm gets its name (also known as sinking algorithm) because smaller el
 
 - **Efficiency:** Bubble Sort is not the most efficient sorting algorithm, especially for large lists, because it repeatedly passes through the list even if it's already sorted. However, it's straightforward and easy to understand, making it a good starting point for learning about sorting algorithms.
 
-- **Best Case:** If the list is already sorted, Bubble Sort can recognize this and stop early. In this case, the best time complexity is O(n), where n is the number of elements in the list.
+- **Best Case:** If the list is already sorted, Bubble Sort can recognize this and stop early, only if it is **optimized** to do. so. In this case, the best time complexity is $O(n)$, where $n$ is the number of elements in the list.
 
-- **Worst Case:** In the worst case, when the list is in reverse order, Bubble Sort will take O(n²) time because it needs to swap each element multiple times to get them in order.
+- **Worst Case:** In the worst case, when the list is in reverse order, Bubble Sort will take $O(n²)$ time because it needs to swap each element multiple times to get them in order. The calculation gives a total of $\frac{n(n-1)}{2}$ comparisons.
 
 - **Stability:** Bubble Sort is a stable sorting algorithm, meaning that it preserves the relative order of equal elements.
   
-- **Space Complexity:** The space complexity of Bubble Sort is O(1) because it only requires a constant amount of additional memory space for the swaps.
+- **Space Complexity:** The space complexity of Bubble Sort is $O(1)$ because it only requires a constant amount of additional memory space for the swaps.
 
 ## Code
 
@@ -29,7 +29,6 @@ The algorithm gets its name (also known as sinking algorithm) because smaller el
 
 
 ```python
-
 def bubbleSort(array):
     print("Provided array: ")
     print(array)
