@@ -11,7 +11,20 @@ app.listen(3000, () => {
 
 -  the use of [body-parser](../body-parser.md) module gives us access to `req.body` allowing better control of the request
 
-To get data from user input to the server (for example, HTML form variables) we use POST method, along with `req.body["variableName"]`
+**Accessing the data**:
+- To get data from user input to the server (for example, HTML form variables) we use POST method, along with `req.body["variableName"]`
+- We can also access using dot operator, for example:
+```js
+app.post('/submit', (req, res) => {
+  // Accessing properties from req.body
+  const name = req.body.name;  // assuming req.body contains a property 'name'
+  const age = req.body.age;    // assuming req.body contains a property 'age'
+
+  // You can now use these properties
+  res.send(`Name: ${name}, Age: ${age}`);
+});
+```
+
 
 ## Dynamic server side
 

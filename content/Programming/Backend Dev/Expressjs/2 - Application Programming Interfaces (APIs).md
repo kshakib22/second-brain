@@ -1,5 +1,7 @@
 
-The main point of an API in terms of backend and software is to allow different systems or components to communicate and work together. In the backend, an API provides a way for different parts of an application (like the server, database, and client-side) to interact efficiently. It enables software systems to request data, perform operations, and receive results without needing to understand the underlying complexity of each other.
+The main point of an API in terms of backend and software is to allow different systems or components to communicate and work together. In the backend, an API provides a way for different parts of an application (like the server, database, and client-side) to interact efficiently. It enables software systems to request data, perform operations, and receive results without needing to understand the underlying complexity of each other. 
+
+Data being transferred is usually in the [JSON](../JSON.md) format.
 
 Similar to how Express simplified Node code to deal with route handling, middleware and req, res, **Axios** is a similar framework for APIs. Check out the detailed notes on [Axios](Axios.md). 
 

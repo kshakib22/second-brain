@@ -2,7 +2,7 @@
 
 #### Creating simple objects
 
-Simple objects can be created without needing a constructor. You can create objects using curly braces `{}`  and `:` . The `:` is used to separate the name of property/method (key) from its values. Check out [[JSON]], [Naming conventions](Naming%20conventions.md). 
+Simple objects can be created without needing a constructor. You can create objects using curly braces `{}`  and `:` . The `:` is used to separate the name of property/method (key) from its values. Check out [[../../Backend Dev/JSON]], [Naming conventions](Naming%20conventions.md). 
 
 ```js
 // creating a person object without class definition/constructor
