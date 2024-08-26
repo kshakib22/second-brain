@@ -161,7 +161,7 @@ app.get('/error-example', async (req, res) => {
 - **`params`**:
   - Used to specify URL query parameters in `GET` requests.
   - Converts object properties into query string parameters.
-  - Example:
+   
     ```javascript
     axios.get('/endpoint', { params: { id: 123 } });
     // Results in: /endpoint?id=123
@@ -170,7 +170,7 @@ app.get('/error-example', async (req, res) => {
 - **`data`**:
   - Used to send data in the body of `POST`, `PUT`, `PATCH`, or `DELETE` requests.
   - Accepts an object or a string.
-  - Example:
+   
     ```javascript
     axios.post('/endpoint', { data: { name: 'John' } });
     ```
@@ -178,7 +178,7 @@ app.get('/error-example', async (req, res) => {
 - **`headers`**:
   - Used to set custom HTTP headers for a request.
   - Can be used to set authorization tokens, content types, etc.
-  - Example:
+   
     ```javascript
     axios.get('/endpoint', {
       headers: { Authorization: `Bearer ${token}` }
@@ -186,9 +186,9 @@ app.get('/error-example', async (req, res) => {
     ```
 
 - **`auth`**:
-  - Provides a shortcut to send basic authentication headers.
+  - Provides a shortcut to send *basic authentication* headers.
   - Takes an object with `username` and `password`.
-  - Example:
+   
     ```javascript
     axios.get('/endpoint', {
       auth: { username: 'user', password: 'pass' }
@@ -198,7 +198,7 @@ app.get('/error-example', async (req, res) => {
 - **`timeout`**:
   - Sets the number of milliseconds before the request times out.
   - If the request takes longer than the specified time, it will be aborted.
-  - Example:
+   
     ```javascript
     axios.get('/endpoint', { timeout: 5000 }); // 5 seconds
     ```
@@ -206,7 +206,7 @@ app.get('/error-example', async (req, res) => {
 - **`responseType`**:
   - Defines the type of data expected in the response.
   - Common values: `'json'`, `'blob'`, `'document'`, `'text'`, `'stream'`.
-  - Example:
+   
     ```javascript
     axios.get('/file', { responseType: 'blob' });
     ```
@@ -214,7 +214,7 @@ app.get('/error-example', async (req, res) => {
 - **`baseURL`**:
   - Sets a base URL for all requests made using the instance.
   - All relative URLs will be prepended with this base URL.
-  - Example:
+
     ```javascript
     const instance = axios.create({ baseURL: 'https://api.example.com' });
     instance.get('/users'); // Request to https://api.example.com/users
@@ -222,7 +222,7 @@ app.get('/error-example', async (req, res) => {
 
 - **`method`**:
   - Specifies the HTTP method to be used (e.g., `GET`, `POST`, `PUT`, `DELETE`).
-  - Example:
+   
     ```javascript
     axios({
       method: 'post',
@@ -230,3 +230,5 @@ app.get('/error-example', async (req, res) => {
       data: { name: 'John' }
     });
     ```
+
+Check [[Axios authentication types]] for different authentications and how exactly to deal with them.
