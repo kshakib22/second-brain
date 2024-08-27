@@ -14,13 +14,13 @@
 
 3. **PUT** : Update or create a resource on the server.
 -  Idempotent (multiple requests result in the same state).
--  Replaces the entire resource.
+-  Replaces the *entire* resource.
 -  ==Data included in the **body** of the request.==
 
-4. **PATCH** : Apply partial modifications to a resource.
+4. **PATCH** : Apply *partial* modifications to a resource.
 -  Not necessarily idempotent.
--  Updates part of the resource.
--  More efficient for partial updates than PUT.
+-  Updates *part* of the resource.
+-  ==More efficient for partial updates than PUT.==
 
 5. **DELETE** : Remove a resource from the server.
 -  Idempotent (multiple requests have the same effect).
