@@ -10,6 +10,15 @@ app.listen(3000, () => {
 ```
 
 -  the use of [body-parser](../body-parser.md) module gives us access to `req.body` allowing better control of the request
+- this body-parser is also supported by express natively
+```js
+// Instead of this:
+// const bodyParser = require('body-parser');
+// app.use(bodyParser.urlencoded({ extended: true }));
+
+// Use this:
+app.use(express.urlencoded({ extended: true }));
+```
 
 **Accessing the data**:
 - To get data from user input to the server (for example, HTML form variables) we use POST method, along with `req.body["variableName"]`
@@ -26,6 +35,21 @@ app.post('/submit', (req, res) => {
 ```
 
 
+## Basic Structure of `app.post` and `app.get`
+- **`app.post`** and **`app.get`** are methods in Express.js used to define routes for handling HTTP POST and GET requests, respectively.
+- Both methods take at least two parameters:
+  1. **Route Path (`string`)**: The URL path for the route.
+  2. **Callback Function (`function`)**: The function to execute when the route is matched.
+
+### Callback Function Parameters
+- The callback function for both `app.post` and `app.get` typically takes the following parameters:
+  - **`req` (Request Object)**: Contains information about the HTTP request, including:
+    - **`req.body`**: Data sent by the client in the body of a POST request.
+    - **`req.query`**: Query string parameters in the URL for GET requests.
+    - **`req.params`**: Route parameters.
+    - **`req.headers`**: Request headers.
+  - **`res` (Response Object)**: Used to send back the desired HTTP response.
+  - **`next` (Function)**: Optional, used to pass control to the next middleware function.
 ## Dynamic server side
 
 After getting familiar with the basics of Express.js and middleware, we have encountered `res.sendFile()` for serving static files like HTML, CSS, or JavaScript. However, when we need to serve dynamic content—where the content of the HTML changes based on the data—we'll need something more powerful. This is where **[EJS](../EJS.md) (Embedded JavaScript)** comes into play which can inject JS code into HTML.

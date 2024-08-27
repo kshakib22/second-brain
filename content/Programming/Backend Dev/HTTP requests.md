@@ -6,13 +6,13 @@
 -  Can be bookmarked.
 -  ==Parameters are included in the URL==.
 
-2. **POST** : Submit data to a server to create a resource.
+2. **POST** : Submit data to a server to create a new resource.
 -  Used for form submissions.
 -  ==Data included in the **body** of the request.==
 -  Not idempotent (multiple requests can create multiple resources).
 -  Can upload files.
 
-3. **PUT** : Update or create a resource on the server.
+3. **PUT** : Update or create a resource on the server *if it doesn't already exist*.
 -  Idempotent (multiple requests result in the same state).
 -  Replaces the *entire* resource.
 -  ==Data included in the **body** of the request.==

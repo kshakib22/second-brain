@@ -109,8 +109,9 @@ fetchData();
 
 ## Basics of Axios
 
-**Sending GET Requests**
-  - Use `axios.get(url)` to retrieve data from a server.
+1. **Sending GET Requests**
+	- Use `axios.get(url, config)` to retrieve data from a server.
+	- `config` is *optional*
 ```javascript
 const express = require('express');
 const axios = require('axios');
@@ -142,93 +143,152 @@ app.post('/send', async (req, res) => {
 });
 ```
 
-**Handling Errors**
-  - Errors are handled in the `.catch` method.
+**Sending PUT Requests**
+  - Use `axios.put(url, data)` to update existing data on a server.
+  
 ```javascript
-app.get('/error-example', async (req, res) => {
+app.put('/update', async (req, res) => {
   try {
-    const response = await axios.get('https://api.example.com/nonexistent');
+    const response = await axios.put('https://api.example.com/data', req.body);
     res.json(response.data);
   } catch (error) {
-    res.status(500).json({ error: error.message || 'An error occurred' });
+    res.status(500).json({ error: 'Failed to update data' });
   }
 });
 ```
 
+**Sending PATCH Requests**
+  - Use `axios.patch(url, data)` to partially update data on a server.
+  
+```javascript
+app.patch('/modify', async (req, res) => {
+  try {
+    const response = await axios.patch('https://api.example.com/data', req.body);
+    res.json(response.data);
+  } catch (error) {
+    res.status(500).json({ error: 'Failed to modify data' });
+  }
+});
+```
 
-## Sending data through Axios
+You're right. The note needs to be more explicit in explaining that the `data` is part of the `config` object when using `axios.delete`. Here's the corrected version:
+
+
+**Sending DELETE Requests**
+- Use `axios.delete(url, config)` to send a DELETE request. 
+- It is different from all the update ones, but also different from GET
+- If you need to pass data with the request, ==include it inside the `config` object under the `data` key.
+==
+```javascript
+app.delete('/remove', async (req, res) => {
+  try {
+    const response = await axios.delete('https://api.example.com/data', {
+      data: req.body // Data is sent within the config object
+    });
+    res.json(response.data);
+  } catch (error) {
+    res.status(500).json({ error: 'Failed to delete data' });
+  }
+});
+```
+
+### Explanation
+- **`url`**: The URL to which the DELETE request is sent.
+- **`config`**: An optional configuration object that can include headers, params, and other options. If you need to include data in a DELETE request, you must place it inside this `config` object under the `data` key.
+
+
+**Handling Errors**
+  - Errors are handled in the `.catch` method in all the earlier methods mentioned
+
+## Sending data through Axios properties
+
+
+> [!warning] Reserved Properties
+> These property names are used in rare cases. Don't confuse with different update methods where the second argument is usually `req.body` to directly send data
 
 - **`params`**:
   - Used to specify URL query parameters in `GET` requests.
   - Converts object properties into query string parameters.
-   
-    ```javascript
-    axios.get('/endpoint', { params: { id: 123 } });
-    // Results in: /endpoint?id=123
-    ```
+
+```javascript
+axios.get('/endpoint', { params: { id: 123 } });
+// Results in: /endpoint?id=123
+```
+
+Here's the corrected note:
+
+---
 
 - **`data`**:
-  - Used to send data in the body of `POST`, `PUT`, `PATCH`, or `DELETE` requests.
-  - Accepts an object or a string.
-   
-    ```javascript
-    axios.post('/endpoint', { data: { name: 'John' } });
-    ```
+  - Used to send data in the body of `POST`, `PUT`, `PATCH`, or `DELETE` requests when using the configuration object with `axios.request()` or similar.
+  - For `DELETE` requests or when using `axios.request()`, include `data` in the configuration object if needed.
+
+```javascript
+// For POST, PUT, and PATCH:
+axios.post('/endpoint', { name: 'John' });
+
+// For DELETE or advanced configurations:
+axios.request({
+method: 'DELETE',
+url: '/endpoint',
+data: { reason: 'No longer needed' }
+});
+```
 
 - **`headers`**:
   - Used to set custom HTTP headers for a request.
   - Can be used to set authorization tokens, content types, etc.
    
-    ```javascript
-    axios.get('/endpoint', {
-      headers: { Authorization: `Bearer ${token}` }
-    });
-    ```
+```javascript
+axios.get('/endpoint', {
+  headers: { Authorization: `Bearer ${token}` }
+});
+```
 
 - **`auth`**:
   - Provides a shortcut to send *basic authentication* headers.
   - Takes an object with `username` and `password`.
    
-    ```javascript
-    axios.get('/endpoint', {
-      auth: { username: 'user', password: 'pass' }
-    });
-    ```
+```javascript
+axios.get('/endpoint', {
+  auth: { username: 'user', password: 'pass' }
+});
+```
 
 - **`timeout`**:
   - Sets the number of milliseconds before the request times out.
   - If the request takes longer than the specified time, it will be aborted.
    
-    ```javascript
-    axios.get('/endpoint', { timeout: 5000 }); // 5 seconds
-    ```
+```javascript
+axios.get('/endpoint', { timeout: 5000 }); // 5 seconds
+```
 
 - **`responseType`**:
   - Defines the type of data expected in the response.
   - Common values: `'json'`, `'blob'`, `'document'`, `'text'`, `'stream'`.
    
-    ```javascript
-    axios.get('/file', { responseType: 'blob' });
-    ```
+```javascript
+axios.get('/file', { responseType: 'blob' });
+```
 
 - **`baseURL`**:
   - Sets a base URL for all requests made using the instance.
   - All relative URLs will be prepended with this base URL.
 
-    ```javascript
-    const instance = axios.create({ baseURL: 'https://api.example.com' });
-    instance.get('/users'); // Request to https://api.example.com/users
-    ```
+```javascript
+const instance = axios.create({ baseURL: 'https://api.example.com' });
+instance.get('/users'); // Request to https://api.example.com/users
+```
 
 - **`method`**:
   - Specifies the HTTP method to be used (e.g., `GET`, `POST`, `PUT`, `DELETE`).
    
-    ```javascript
-    axios({
-      method: 'post',
-      url: '/endpoint',
-      data: { name: 'John' }
-    });
-    ```
+```javascript
+axios({
+  method: 'post',
+  url: '/endpoint',
+  data: { name: 'John' }
+});
+```
 
 Check [[Axios authentication types]] for different authentications and how exactly to deal with them.
