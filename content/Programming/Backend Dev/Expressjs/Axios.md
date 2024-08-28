@@ -204,7 +204,7 @@ app.delete('/remove', async (req, res) => {
 
 
 > [!warning] Reserved Properties
-> These property names are used in rare cases. Don't confuse with different update methods where the second argument is usually `req.body` to directly send data
+> The following property names are used in rare cases. Don't confuse with different update methods where the second argument is usually `req.body` to directly send data
 
 - **`params`**:
   - Used to specify URL query parameters in `GET` requests.
