@@ -22,7 +22,9 @@ Here is the primitive data types - which are also inherently [[immutable]]. A lo
 Check datatype using the function  `typeof()` (built-in)
 [[var]] - is a keyword used to [[declare]] *variables* 
 Declaration done using `=`, comparison done using both `==` and `===` . Check [[Comparison Operators]] to clarify the differences.
-
+`parseInt()` converts a string-number into an integer.
+`.find()` to find something based on the callback function
+`.filter()` to filter something based on the callback function
 
 Both `i++` as well as `i+=` is allowed in Javascript. 
 `return` works the same as Python.

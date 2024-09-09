@@ -53,6 +53,7 @@ axios.get('/search', { params: { keyword: 'nodejs', limit: 10 } });
 
 - **Formats of `req.query`:**
   - `?keyword=nodejs&limit=10`
+  - The portion before the `?` is the base url, and multiple parameters are separated by `&`
   - Use arrays and nested objects: `?tags=tech&tags=js&filters[year]=2023`
 
 > [!warning] Use of colon (`:`)
