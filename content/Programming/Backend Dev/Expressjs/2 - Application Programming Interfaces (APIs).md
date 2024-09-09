@@ -37,3 +37,7 @@ const response = await axios.post(API_URL + "/secrets", req.body, customConfig);
   ```javascript
   const response = await axios.get(API_URL + "/secrets", customConfig);
   ```
+
+
+
+While this section discusses use of axios to connect different APIs to our server, it is also crucial to understand how to create your own API. The next section is [3 - Creating REST API](3%20-%20Creating%20REST%20API.md) . 

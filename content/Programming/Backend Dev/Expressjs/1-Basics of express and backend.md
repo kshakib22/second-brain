@@ -50,6 +50,8 @@ app.post('/submit', (req, res) => {
     - **`req.headers`**: Request headers.
   - **`res` (Response Object)**: Used to send back the desired HTTP response.
   - **`next` (Function)**: Optional, used to pass control to the next middleware function.
+
+Make sure to read through [[Callback function parameters in details]] before proceeding.
 ## Dynamic server side
 
 After getting familiar with the basics of Express.js and middleware, we have encountered `res.sendFile()` for serving static files like HTML, CSS, or JavaScript. However, when we need to serve dynamic content—where the content of the HTML changes based on the data—we'll need something more powerful. This is where **[EJS](../EJS.md) (Embedded JavaScript)** comes into play which can inject JS code into HTML.

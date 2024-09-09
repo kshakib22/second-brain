@@ -1,0 +1,1 @@
+Pre-requisites include a clear understanding of [[REST API]] and its basic principles.
