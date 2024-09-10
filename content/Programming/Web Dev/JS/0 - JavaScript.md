@@ -23,8 +23,8 @@ Check datatype using the function  `typeof()` (built-in)
 [[var]] - is a keyword used to [[declare]] *variables* 
 Declaration done using `=`, comparison done using both `==` and `===` . Check [[Comparison Operators]] to clarify the differences.
 `parseInt()` converts a string-number into an integer.
-`.find()` to find something based on the callback function
-`.filter()` to filter something based on the callback function
+`.find()` to find something based on the callback function. Returns the first match.
+`.filter()` to filter something based on the callback function. Returns an array with all the matches.
 
 Both `i++` as well as `i+=` is allowed in Javascript. 
 `return` works the same as Python.
