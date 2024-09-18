@@ -25,6 +25,8 @@ Declaration done using `=`, comparison done using both `==` and `===` . Check [[
 `parseInt()` converts a string-number into an integer.
 `.find()` to find something based on the callback function. Returns the first match.
 `.filter()` to filter something based on the callback function. Returns an array with all the matches.
+`.slice()` method
+`.findIndex()` method
 
 Both `i++` as well as `i+=` is allowed in Javascript. 
 `return` works the same as Python.
