@@ -27,6 +27,8 @@ Declaration done using `=`, comparison done using both `==` and `===` . Check [[
 `.filter()` to filter something based on the callback function. Returns an array with all the matches.
 `.slice()` method
 `.findIndex()` method
+`?` for if statements
+
 
 Both `i++` as well as `i+=` is allowed in Javascript. 
 `return` works the same as Python.

@@ -6,6 +6,9 @@
    - Each request from the client to the server must contain *all the information* needed to understand and process the request.
    - The server does *not store any session information* about the client, meaning that each request is treated independently.
 
+> [!warning] Stateless changes
+> If you’re modifying a variable within a PUT request and expect the change to persist globally across your app, ensure that the variable is **globally** scoped. If it’s not, it will only be changed in the context of that particular request. If the app restarts or the variable is locally scoped, the change will be lost. To make changes persist across sessions, consider using a database.
+
 2. **Client-Server Architecture:**
    - The client is responsible for the user interface and the server manages data and the backend.
    - This separation allows the two to evolve independently (scaling).
