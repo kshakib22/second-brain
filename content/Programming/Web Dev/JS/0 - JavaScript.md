@@ -28,7 +28,7 @@ Declaration done using `=`, comparison done using both `==` and `===` . Check [[
 `.slice()` method
 `.findIndex()` method
 `?` for if statements
-
+delete or `splice` from array
 
 Both `i++` as well as `i+=` is allowed in Javascript. 
 `return` works the same as Python.
