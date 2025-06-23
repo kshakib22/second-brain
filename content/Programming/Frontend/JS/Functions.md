@@ -1,4 +1,4 @@
-JavaScript uses the `function` keyword followed by the function name, parentheses for parameters, and **curly braces** `{}` for the function body. Refer to [Control Flow](Control%20Flow) for loops and conditionals and [[Logical Operators]] for logic stuff.
+JavaScript uses the `function` keyword followed by the function name, parentheses for parameters, and **curly braces** `{}` for the function body. Refer to [Control Flow](Control%20Flow.md) for loops and conditionals and [[Logical Operators]] for logic stuff.
 
 ```js
 function functionName(parameter1, parameter2, ...) {

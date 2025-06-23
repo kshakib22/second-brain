@@ -12,7 +12,7 @@ Similar to how Express simplified Node code to deal with route handling, middlew
 
 
 > [!warning] Mutiple `app.post` requests
-> Review [HTML forms](../../Web%20Dev/HTML/HTML%20forms.md) to understand why all post, put, patch and sometimes even get requests also use `app.post` method
+> Review [HTML forms](../../Frontend/HTML/HTML%20forms.md) to understand why all post, put, patch and sometimes even get requests also use `app.post` method
 
 ## Common Use of Variables
 - **`req.body`**: Often used in `POST` requests to access data sent from the client, such as **form data**.

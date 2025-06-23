@@ -10,7 +10,7 @@ This is  a versatile tool for *pinpointing* specific elements within the DOM bas
 > a different method [[document.querySelectorAll]]
 
 
-The argument for the function can combine selectors as well such as 
+The argument for [](document.querySelectorAll.md)ctors as well such as 
 `document.querySelector("li a")`  or `document.querySelector("li.item")`
 
 In the above example, there is a space between `li` and `a` because the anchor tag (child) is within the list (parent) tag, but they are still different tags. But `li.item` has no space because item is the class, *within* the same tag of list. 
