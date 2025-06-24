@@ -112,4 +112,4 @@ Components aren't just about structure; they also manage their own data and beha
 
 ---
 
-This is just the tip of the iceberg, but these core concepts of components, props, state, and effects are what make React so powerful and enjoyable to work with. Dive in and start building!
+This is just the tip of the iceberg, but these core concepts of components, props, state, and effects are what make React so powerful and enjoyable to work with. Dive in and start building! Move to [[crash intro to node]] for basics.
