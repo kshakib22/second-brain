@@ -32,7 +32,7 @@ delete or `splice` from array
 
 Both `i++` as well as `i+=` is allowed in Javascript. 
 `return` works the same as Python.
-Use`//` for inline comment and `/* shizle goes here */` for comment snippet
+Use `//` for inline comment and `/* shizle goes here */` for comment snippet
 
 Check [[Functions]] for overview and syntax for functions.
 Check [[Control Flow]] for notes on loops and conditionals.
