@@ -21,7 +21,7 @@ This crash course provides a comprehensive guide to building dynamic and interac
     * A syntax extension for JavaScript that allows you to write HTML-like structures directly within your JavaScript code.
     * Makes UI definition intuitive and declarative.
 * **State Management (`[[State Management]]`):**
-    * **`useState` Hook (`[[useState Hook]]`):**
+    * **`useState` [[Hook]] :**
         * Fundamental for managing internal, mutable data (state) within a functional component.
         * Essential for creating interactive and dynamic user interfaces (e.g., managing the liked/unliked state of a button).
         * **Best Practice:** When updating state based on its previous value, always use the functional update form (e.g., `setCount(prevCount => prevCount + 1)`) to prevent bugs in complex scenarios.

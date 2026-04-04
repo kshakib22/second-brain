@@ -62,7 +62,7 @@ function App() {
 
 export default App;
 
-````
+```
 
 #### 2\. Component with `[[Props]]`
 
