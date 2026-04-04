@@ -37,7 +37,7 @@
   "dependencies": {
     "@clack/prompts": "^0.11.0",
     "@floating-ui/dom": "^1.6.13",
-    "@napi-rs/simple-git": "0.1.19",
+    "@napi-rs/simple-git": "0.1.22",
     "async-mutex": "^0.5.0",
     "chalk": "^5.4.1",
     "chokidar": "^4.0.3",
@@ -83,7 +83,7 @@
     "rfdc": "^1.4.1",
     "rimraf": "^6.0.1",
     "serve-handler": "^6.1.6",
-    "shiki": "^3.8.0",
+    "shiki": "^3.13.0",
     "source-map-support": "^0.5.21",
     "to-vfile": "^8.0.0",
     "toml": "^3.0.0",
@@ -91,7 +91,7 @@
     "unist-util-visit": "^5.0.0",
     "vfile": "^6.0.3",
     "workerpool": "^9.2.0",
-    "ws": "^8.18.2",
+    "ws": "^8.18.3",
     "yargs": "^18.0.0"
   },
   "devDependencies": {
@@ -99,13 +99,13 @@
     "@types/d3": "^7.4.3",
     "@types/hast": "^3.0.4",
     "@types/js-yaml": "^4.0.9",
-    "@types/node": "^22.10.1",
+    "@types/node": "^24.9.0",
     "@types/pretty-time": "^1.1.5",
     "@types/source-map-support": "^0.5.10",
     "@types/ws": "^8.5.12",
     "@types/yargs": "^17.0.33",
     "esbuild": "^0.25.4",
-    "prettier": "^3.3.3",
+    "prettier": "^3.6.2",
     "tsx": "^4.19.3",
     "typescript": "^5.7.3"
   }
